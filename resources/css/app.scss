@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  @apply font-sans text-black antialiased;
+
+  @screen dark-mode {
+    @apply bg-gray-900;
+  }
+}
+
+header {
+	@apply mx-auto text-center text-gray-700;
+	@screen dark-mode {
+		@apply text-gray-600;
+	}
+}
+
+main {
+	@apply w-full bg-gray-800 text-white font-light;
+	@screen dark-mode {
+		@apply text-gray-500;
+	}
+}
+
+.highlight {
+	@apply text-red-500;
+	@screen dark-mode {
+		@apply text-gray-100;
+	}
+}
+
+.check-icon {
+	@apply fill-current inline-block h-4 w-4 align-text-bottom mr-2;
+}
+
+footer {
+	@apply hidden mx-auto my-5 text-center text-xs text-gray-700;
+	@screen sm {
+		@apply block;
+	}
+	@screen dark-mode {
+		@apply text-gray-600;
+	}
+}
