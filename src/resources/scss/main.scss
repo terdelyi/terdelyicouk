@@ -4,14 +4,14 @@
 .pagination {
   @apply inline-flex;
   a {
-    @apply bg-white text-grey px-2 py-1 rounded mr-1 leading-none font-semibold;
+    @apply bg-whiteish text-grey px-2 py-1 rounded mr-1 leading-none font-semibold;
 
     &:hover {
-      @apply bg-pink text-white;
+      @apply bg-pink text-whiteish;
     }
 
     &.active {
-      @apply bg-darkest text-white;
+      @apply bg-dark text-whiteish;
     }
   }
 }
@@ -22,7 +22,7 @@
 
 .has-content {
   h2 {
-    @apply text-2xl font-semibold mt-8 mb-2 text-greyblue;
+    @apply text-2xl font-semibold mt-8 mb-2 text-almost-blue;
   }
   h3 {
     @apply text-xl mb-2;
@@ -34,33 +34,35 @@
     @apply list-disc ml-8 mb-8;
   }
   a {
-    @apply text-pink underline;
+    @apply underline text-pink;
 
     &:hover {
       @apply text-grey;
     }
   }
-  pre {
+  pre[class*="language-"] {
     @apply mb-6 p-4 px-6 text-sm rounded overflow-x-auto font-mono;
   }
 
-  .shiki-inline {
-    @apply p-1 text-sm rounded;
-    background: none!important;
-    color: #103b96!important;
+  code {
+    @apply p-1 text-sm rounded text-blue bg-whiteish;
   }
 }
 
 .text-input {
-  @apply w-full px-4 py-2 border border-grey rounded;
+  @apply w-full px-4 py-2 rounded border border-dark-white;
 
   &::placeholder {
-    @apply text-greyblue;
+    @apply text-grey-jr;
+  }
+
+  &:focus {
+    @apply border border-blue outline-none;
   }
 }
 
 .btn {
-  @apply bg-blue px-4 py-2 rounded text-white font-bold;
+  @apply bg-blue px-4 py-2 rounded text-whiteish font-bold;
 
   &:hover {
     @apply bg-pink;

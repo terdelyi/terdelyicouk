@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="lg:w-3/5 text-white">
+    <div class="lg:w-3/5 text-barry-white">
       <div class="sm:text-xl mb-4 sm:mb-2 font-light">Hi, my name is Tamas and</div>
       <div class="text-3xl xs:text-4xl sm:text-5xl font-extrabold leading-none mb-4 sm:mb-2 whitespace-pre-line">I'm a PHP and
         Laravel developer</div>
@@ -30,16 +30,16 @@
           </li>
         </ul>
       </div>
-      <div class="font-sans font-light text-white-dark text-sm px-32 lg:pr-32 lg:pl-0">
-        Can't get enough of me? I have a <g-link to="/about/" class="text-white underline hover:text-pink">proper introduction</g-link>. I write about <g-link to="/notes/" class="text-white underline hover:text-pink">stuff I'm usually working on</g-link>. But you can also <g-link to="/contact/" class="text-white underline hover:text-pink">drop me a message</g-link>.
+      <div class="font-sans font-light text-dark-white text-sm px-32 lg:pr-32 lg:pl-0">
+        Can't get enough of me? I have a <g-link to="/about/" class="text-barry-white underline hover:text-pink">proper introduction</g-link>. I write about <g-link to="/notes/" class="text-barry-white underline hover:text-pink">stuff I'm usually working on</g-link>. But you can also <g-link to="/contact/" class="text-barry-white underline hover:text-pink">drop me a message</g-link>.
       </div>
     </div>
     <div class="hidden lg:block lg:w-2/5 p-5">
       <g-image
-              class="object-fill"
-              alt="Tamas"
-              src="~/assets/images/profile2x.jpg"
-              blur="0"
+          class="object-fill"
+          alt="Kevin Smith look-a-like competition winner"
+          src="~/assets/images/profile2x.jpg"
+          blur="0"
       />
     </div>
   </Layout>
@@ -55,7 +55,7 @@
     metaInfo: {
       title: 'Tamas Erdelyi - PHP & Laravel developer',
       bodyAttrs: {
-        class: 'bg-darkest h-screen items-center flex antialiased'
+        class: 'h-screen items-center flex bg-dark'
       }
     },
   };

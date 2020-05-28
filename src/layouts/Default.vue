@@ -4,7 +4,7 @@
 
     <transition name="fade" appear>
       <main id="main">
-        <div class="container max-w-screen-md text-darkest mx-auto py-10">
+        <div class="container max-w-screen-md mx-auto py-10 text-dark">
             <slot/>
         </div>
       </main>

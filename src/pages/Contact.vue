@@ -1,5 +1,6 @@
 <template>
   <Layout>
+
     <h1 class="page-title">Contact</h1>
 
     <div class="font-display mb-4">Recruiters you shall not pass here! But if you're not one of them and you have an exciting project idea fill me in with the details in case I might be interested.</div>
@@ -13,6 +14,7 @@
         <div><button type="submit" class="btn">Submit</button></div>
       </form>
     </div>
+
   </Layout>
 </template>
 

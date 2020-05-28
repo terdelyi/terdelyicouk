@@ -6,7 +6,7 @@
     <div class="has-content leading-relaxed font-display mb-4" v-html="$page.entry.excerpt"></div>
     <div class="has-content leading-relaxed font-display" v-html="$page.entry.content"></div>
 
-    <div class="flex justify-between border-t border-grey-solid py-4 text-sm">
+    <div class="flex justify-between border-t border-grey-jr py-4 text-sm">
       <div>
         <time :datetime="$page.entry.datetime">{{ $page.entry.humanTime }}</time>
       </div>

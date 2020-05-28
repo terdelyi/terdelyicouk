@@ -16,19 +16,6 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-source-static-meta',
-      options: {
-        path: 'settings/*.json'
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        typeName: 'Author',
-        path: './content/author/*.md'
-      }
-    },
-    {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Entry',
@@ -55,7 +42,7 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: false } ]
+        '@gridsome/remark-prismjs'
       ],
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
