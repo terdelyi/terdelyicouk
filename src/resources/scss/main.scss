@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+
+.pagination {
+  @apply inline-flex;
+  a {
+    @apply bg-white text-grey px-2 py-1 rounded mr-1 leading-none font-semibold;
+
+    &:hover {
+      @apply bg-pink text-white;
+    }
+
+    &.active {
+      @apply bg-darkest text-white;
+    }
+  }
+}
+
+.page-title {
+  @apply text-4xl font-bold mb-4 text-blue;
+}
+
+.has-content {
+  h2 {
+    @apply text-2xl font-semibold mt-8 mb-2 text-greyblue;
+  }
+  h3 {
+    @apply text-xl mb-2;
+  }
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+  ol, ul {
+    @apply list-disc ml-8 mb-8;
+  }
+  a {
+    @apply text-pink underline;
+
+    &:hover {
+      @apply text-grey;
+    }
+  }
+  pre {
+    @apply mb-6 p-4 px-6 text-sm rounded overflow-x-auto font-mono;
+  }
+
+  .shiki-inline {
+    @apply p-1 text-sm rounded;
+    background: none!important;
+    color: #103b96!important;
+  }
+}
+
+.text-input {
+  @apply w-full px-4 py-2 border border-grey rounded;
+
+  &::placeholder {
+    @apply text-greyblue;
+  }
+}
+
+.btn {
+  @apply bg-blue px-4 py-2 rounded text-white font-bold;
+
+  &:hover {
+    @apply bg-pink;
+  }
+}
+
+@tailwind utilities;
