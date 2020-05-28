@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ac4477-2b2f-4e89-adb0-4ae3c0b9207d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridsome.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gridsome.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactThanks.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactThanks.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Notes.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Notes.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/Entry.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/Entry.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590700166740</updated>
-      <workItem from="1590700170872" duration="6207000" />
+      <workItem from="1590700170872" duration="6769000" />
     </task>
     <servers />
   </component>
