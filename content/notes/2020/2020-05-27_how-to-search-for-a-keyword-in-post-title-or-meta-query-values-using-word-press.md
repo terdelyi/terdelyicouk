@@ -7,8 +7,6 @@ category: WordPress
 
 ## How does WP Query works?
 
-Nobody knows that. Nah, just kidding.
-
 If you allow me to use an MVC term in an event driven system WP Query is basically the router of WordPress. Hidden behind nice and clean permalinks it takes care to load posts and run search queries through query strings. By using `s=` in the URL (like `https://myawesomewpsite.com/?s=Geronimo`) it will search for posts which has the phrase "Geronimo" in their title, excerpt and content.
 
 You can extend this circle to search in the `postmeta` table:
