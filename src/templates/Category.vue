@@ -25,7 +25,7 @@
         },
         edges {
           node {
-            ... on Entry {
+            ... on Note {
               id
               title
               path,

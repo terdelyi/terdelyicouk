@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <div class="lg:w-3/5 text-barry-white">
-      <div class="sm:text-xl mb-4 sm:mb-2 font-light">Hi, my name is Tamas and</div>
-      <div class="text-3xl xs:text-4xl sm:text-5xl font-extrabold leading-none mb-4 sm:mb-2 whitespace-pre-line">I'm a PHP and
+      <div class="mb-4 sm:mb-2 sm:text-xl font-light">Hi, my name is Tamas and</div>
+      <div class="mb-4 sm:mb-2 whitespace-pre-line text-3xl xs:text-4xl sm:text-6xl font-extrabold leading-none ">I'm a PHP and
         Laravel developer</div>
-      <div class="xs:text-xl sm:text-2xl mb-10 whitespace-pre-line leading-none sm:leading-normal font-light">with <span class="font-semibold text-pink" style="text-shadow: 0px 0px 14px #FD1383;">18 years of full-stack experience</span>
-        based in Gloucester, UK</div>
+      <div class="mb-8 whitespace-pre-line xs:text-xl sm:text-2xl leading-none sm:leading-normal">with <span class="font-semibold text-pink text-3xl" style="text-shadow: 0px 0px 14px #FD1383;">18 years of full-stack experience</span>
+      based in Gloucester, England</div>
       <div class="mb-16">
         <ul class="inline-flex">
           <li>
@@ -30,18 +30,15 @@
           </li>
         </ul>
       </div>
-      <div class="font-sans font-light text-dark-white text-sm px-32 lg:pr-32 lg:pl-0">
-        Can't get enough of me? I have a <g-link to="/about/" class="text-barry-white underline hover:text-pink">proper introduction</g-link>. I write about <g-link to="/notes/" class="text-barry-white underline hover:text-pink">stuff I'm usually working on</g-link>. But you can also <g-link to="/contact/" class="text-barry-white underline hover:text-pink">drop me a message</g-link>.
+      <div class="px-32 lg:pr-32 lg:pl-0 font-light text-dark-white text-sm">
+        Can't get enough of me? I have a <g-link to="/about/" class="text-barry-white hover:text-pink underline">proper introduction</g-link>. I write about <g-link to="/notes/" class="text-barry-white underline hover:text-pink">stuff I'm usually working on</g-link>. But you can also <g-link to="/contact/" class="text-barry-white underline hover:text-pink">drop me a message</g-link>.
       </div>
     </div>
-    <div class="hidden lg:block lg:w-2/5 p-5">
-      <g-image
-          class="object-fill"
-          alt="Kevin Smith look-a-like competition winner"
-          src="~/assets/images/profile2x.jpg"
-          blur="0"
-      />
-    </div>
+    <transition name="fade" appear>
+      <div class="hidden lg:block lg:w-2/5 p-2">
+        <g-image class="object-fill" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile2x.jpg" />
+      </div>
+    </transition>
   </Layout>
 </template>
 
@@ -54,9 +51,20 @@
     },
     metaInfo: {
       title: 'Tamas Erdelyi - PHP & Laravel developer',
+      titleTemplate: '%s',
       bodyAttrs: {
         class: 'h-screen items-center flex bg-dark'
       }
     },
   };
 </script>
+
+<style>
+  .fade-enter-active {
+    transition: opacity 2s;
+  }
+
+  .fade-enter {
+    opacity: 0;
+  }
+</style>

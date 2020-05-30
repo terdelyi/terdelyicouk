@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400;700;900&display=swap');
+
 .pagination {
   @apply inline-flex;
   a {
@@ -17,7 +19,7 @@
 }
 
 .page-title {
-  @apply text-4xl font-bold mb-4 text-blue;
+  @apply text-4xl font-bold mb-6 text-blue;
 }
 
 .has-content {
@@ -28,7 +30,7 @@
     @apply text-xl mb-2;
   }
   p {
-    @apply mb-4 leading-relaxed;
+    @apply mb-4 leading-loose;
   }
   ol, ul {
     @apply list-disc ml-8 mb-8;

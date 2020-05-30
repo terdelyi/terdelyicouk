@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'terdelyi.co.uk',
+  siteName: 'Tamas Erdelyi',
   siteDescription: '',
   siteUrl: 'https://terdelyi.co.uk',
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Entry',
-        path: './content/entries/**/*.md',
+        typeName: 'Note',
+        path: './content/notes/**/*.md',
         refs: {
           category: {
             typeName: 'Category',
@@ -30,9 +30,9 @@ module.exports = {
     }
   ],
   templates: {
-    Entry: [{
+    Note: [{
       path: '/notes/:title',
-      component: './src/templates/Entry.vue'
+      component: './src/templates/Note.vue'
     }],
     Category: [{
       path: '/category/:title',

@@ -3,13 +3,13 @@
 
       <h1 class="page-title">Notes</h1>
 
-      <article class="leading-relaxed mb-10" v-for="entry in $page.allEntry.edges" :key="entry.node.id">
-        <h3 class="text-xl font-header leading-tight mb-2 font-semibold"><g-link class="text-pink hover:text-gray-600 hover:underline" :to="entry.node.path">{{ entry.node.title }}</g-link></h3>
-        <div class="leading-relaxed">{{ entry.node.excerpt }}</div>
+      <article class="leading-relaxed mb-10" v-for="note in $page.allNote.edges" :key="note.node.id">
+        <h3 class="text-xl font-header leading-tight mb-3 font-semibold"><g-link class="text-pink hover:text-gray-600 hover:underline" :to="note.node.path">{{ note.node.title }}</g-link></h3>
+        <div class="leading-relaxed">{{ note.node.excerpt }}</div>
       </article>
 
-      <div class="pagination">
-        <Pager :info="$page.allEntry.pageInfo"/>
+      <div v-if="$page.allNote.pageInfo.totalPages > 1" class="pagination">
+        <Pager :info="$page.allNote.pageInfo"/>
       </div>
 
   </Layout>
@@ -17,7 +17,7 @@
 
 <page-query>
 query ($page: Int) {
-  allEntry(sortBy: "datetime", order: DESC, perPage: 5, page: $page) @paginate {
+  allNote(sortBy: "datetime", order: DESC, perPage: 5, page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage

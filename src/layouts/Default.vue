@@ -2,27 +2,15 @@
   <div>
     <HeaderPartial/>
 
-    <transition name="fade" appear>
-      <main id="main">
-        <div class="container max-w-screen-md mx-auto py-10 text-dark">
-            <slot/>
-        </div>
-      </main>
-    </transition>
+    <main id="main">
+      <div class="container max-w-screen-md mx-auto px-10 md:px-0 py-4 md:py-10 text-dark">
+          <slot/>
+      </div>
+    </main>
 
     <FooterPartial/>
   </div>
 </template>
-
-<style>
-  .fade-enter-active {
-    transition: opacity .5s;
-  }
-
-  .fade-enter {
-    opacity: 0;
-  }
-</style>
 
 <static-query>
 query {

@@ -30,7 +30,7 @@
             </a>
           </li>
         </ul>
-      <div>
+      <div class="px-20">
         No webdesigners were harmed in the making of this website. (c) All rights reserved.
       </div>
     </div>
