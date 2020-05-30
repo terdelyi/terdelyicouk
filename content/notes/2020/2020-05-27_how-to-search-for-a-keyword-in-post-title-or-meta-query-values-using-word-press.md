@@ -4,10 +4,9 @@ excerpt: WordPress is an old school, straightforward CMS, but it also could be a
 created: 2020-05-27
 category: WordPress
 ---
-
 ## How does WP Query works?
 
-If you allow me to use an MVC term in an event driven system WP Query is basically the router of WordPress. Hidden behind nice and clean permalinks it takes care to load posts and run search queries through query strings. By using `s=` in the URL (like `https://myawesomewpsite.com/?s=Geronimo`) it will search for posts which has the phrase "Geronimo" in their title, excerpt and content.
+If you would allow me to use a strictly MVC term in an event driven system WP Query is basically the router of WordPress. Hidden behind nice and clean permalinks it handles to load posts and run search queries through query strings. By using `s=` in the URL (like `https://myawesomewpsite.com/?s=Geronimo`) it will search for posts which has the phrase "Geronimo" in their title, excerpt and content.
 
 You can extend this circle to search in the `postmeta` table:
 
@@ -75,7 +74,7 @@ protected function get_sql_clauses() {
 }
 ```
 
-[Most conversations on Stack Exchange](https://wordpress.stackexchange.com/questions/229003/filter-by-title-content-and-meta-key-at-the-same-time) mention things like running two post queries and merge the results in the end. Others recommend creating a unique query variable and replace the role if `s` by [defining your own search conditions](https://jboullion.com/search-post-title-and-meta/) in the `posts_where` hook.
+[Most conversations on Stack Exchange](https://wordpress.stackexchange.com/questions/229003/filter-by-title-content-and-meta-key-at-the-same-time) mention things like running two post queries and merge the results in the end. Others recommend creating a unique query variable and replace the role of the `s=` by [defining your own search conditions](https://jboullion.com/search-post-title-and-meta/) in the `posts_where` hook.
 
 ## Here comes the boom
 
