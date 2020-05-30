@@ -36,7 +36,7 @@
     </div>
     <transition name="fade" appear>
       <div class="hidden lg:block lg:w-2/5 p-2">
-        <g-image class="object-fill" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile2x.jpg" />
+        <g-image class="object-fill" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile2x.jpg" immediate="true" />
       </div>
     </transition>
   </Layout>
