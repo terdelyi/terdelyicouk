@@ -23,14 +23,16 @@
 }
 
 .has-content {
+  @apply leading-loose;
+
   h2 {
-    @apply text-2xl font-semibold mt-8 mb-2 text-almost-blue;
+    @apply text-2xl font-semibold mt-8 mb-2 text-blue;
   }
   h3 {
     @apply text-xl mb-2;
   }
   p {
-    @apply mb-4 leading-loose;
+    @apply mb-4;
   }
   ol, ul {
     @apply list-disc ml-8 mb-8;
@@ -43,7 +45,7 @@
     }
   }
   pre[class*="language-"] {
-    @apply mb-6 p-4 px-6 text-sm rounded overflow-x-auto font-mono;
+    @apply mb-6 p-4 px-5 text-sm rounded-md overflow-x-auto font-mono;
   }
 
   code {

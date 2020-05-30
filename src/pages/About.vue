@@ -3,7 +3,7 @@
 
     <h1 class="page-title">I hope you're sitting comfortable.</h1>
 
-    <div class="has-content">
+    <div class="has-content mb-8">
       <p>I first met with a real computer when I was around ten. I think it was one of our neighbour's Commodore 64.
         Therefore my dad had to buy a Commodore for us. Then my neighbour upgraded to a Pentium PC. We got that too, obviously.
         Jumping a few years forward my parents enrolled me in course which was all about Windows 3.1 and coding in Basic.

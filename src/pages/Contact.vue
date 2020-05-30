@@ -5,13 +5,13 @@
 
     <div class="font-display mb-4"><span class="font-semibold">Recruiters shall not pass here!</span> For anyone else: if you have an exciting project idea fill me in with the details in case I might be interested.</div>
 
-    <div class="mb-10">
+    <div class="mb-8">
       <form v-on:submit.prevent="handleSubmit" name="contact" action="/contact/thanks/" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="Contact" />
         <div hidden>Don’t fill this out: <input name="bot-field" /></div>
-        <div class="my-3"><input type="text" name="name" v-model="formData.name" class="text-input" placeholder="Name"></div>
-        <div class="my-3"><input type="email" name="email" v-model="formData.email" class="text-input" placeholder="Email"></div>
-        <div class="my-3"><textarea name="message" v-model="formData.message" class="text-input h-32" placeholder="Message"></textarea></div>
+        <div class="my-3"><input type="text" name="name" v-model="formData.name" class="text-input" placeholder="Name" required></div>
+        <div class="my-3"><input type="email" name="email" v-model="formData.email" class="text-input" placeholder="Email" required></div>
+        <div class="my-3"><textarea name="message" v-model="formData.message" class="text-input h-32" placeholder="Message" required></textarea></div>
         <div><button type="submit" class="btn">Send</button></div>
       </form>
     </div>

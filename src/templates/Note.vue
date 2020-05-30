@@ -3,10 +3,12 @@
     <h1 class="page-title text-4xl font-header leading-tight font-bold mb-6 text-blue" v-html="$page.note.title"
     ></h1>
 
-    <div class="has-content leading-relaxed font-display mb-4" v-html="$page.note.excerpt"></div>
-    <div class="has-content leading-relaxed font-display" v-html="$page.note.content"></div>
+    <div class="has-content">
+      <div class="mb-4" v-html="$page.note.excerpt"></div>
+      <div v-html="$page.note.content"></div>
+    </div>
 
-    <div class="flex justify-between border-t border-grey-jr py-4 text-sm">
+    <div class="flex justify-between bg-whiteish px-4 py-3 mb-6 text-sm rounded-md">
       <div>
         <time :datetime="$page.note.datetime">{{ $page.note.humanTime }}</time>
       </div>
@@ -16,7 +18,6 @@
     </div>
   </Layout>
 </template>
-
 
 <page-query>
   query($id: ID!) {
