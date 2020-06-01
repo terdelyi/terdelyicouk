@@ -24,7 +24,7 @@
         I began to interest the frontend again, jamstack, mobile development, servers, the whole branch.</p>
       <p>Today I think myself as an open-minded software engineer, eager to learn and try everything which moves himself
         forward and get his brain busy.</p>
-      <p>In my free time I'm just a geek dad in his late 30s with mouths to feed.</p>
+      <p>In my free time I'm just a geek dad in his late 30s.</p>
     </div>
 
   </Layout>

@@ -19,7 +19,13 @@
 }
 
 .page-title {
-  @apply text-4xl font-bold mb-6 text-blue;
+  @apply text-3xl font-bold mb-6 text-blue leading-tight;
+}
+
+@media (min-width: 640px) {
+  .page-title {
+    @apply text-4xl font-bold mb-6 text-blue leading-tight;
+  }
 }
 
 .has-content {
@@ -54,7 +60,11 @@
 }
 
 .text-input {
-  @apply w-full px-4 py-2 rounded border border-dark-white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  @apply w-full px-4 py-2 bg-whiteish rounded border border-grey-jr;
 
   &::placeholder {
     @apply text-grey-jr;

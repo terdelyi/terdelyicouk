@@ -6,7 +6,7 @@
     <div class="font-display mb-4"><span class="font-semibold">Recruiters shall not pass here!</span> For anyone else: if you have an exciting project idea fill me in with the details in case I might be interested.</div>
 
     <div class="mb-8">
-      <form v-on:submit.prevent="handleSubmit" name="contact" action="/contact/thanks/" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form v-on:submit.prevent="handleSubmit" name="contact" action="/contact/thanks/" method="post" data-netlify="true" data-netlify-honeypot="bot-field" autocomplete="off">
         <input type="hidden" name="form-name" value="Contact" />
         <div hidden>Don’t fill this out: <input name="bot-field" /></div>
         <div class="my-3"><input type="text" name="name" v-model="formData.name" class="text-input" placeholder="Name" required></div>

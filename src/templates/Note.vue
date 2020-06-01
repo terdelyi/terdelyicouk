@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="page-title text-4xl font-header leading-tight font-bold mb-6 text-blue" v-html="$page.note.title"
+    <h1 class="page-title mb-6" v-html="$page.note.title"
     ></h1>
 
     <div class="has-content">
