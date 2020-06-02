@@ -12,6 +12,7 @@ module.exports = {
       'dark-white': '#848794',
       'pink': '#fd1383',
       'blue': '#103b96',
+      'blue-steel': '#222a50',
       'almost-blue': '#8895b3',
     },
   }
