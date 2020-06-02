@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-blue-steel text-white">
+  <header class="bg-blue-steel text-whiteish">
     <div class="max-w-screen-lg flex items-center justify-between py-4 mx-auto">
       <div class="px-5 md:px-4">
         <h1 class="font-light text-lg"><g-link to="/" class="hover:underline">Tamas <span class="font-bold">Erdelyi</span></g-link></h1>
