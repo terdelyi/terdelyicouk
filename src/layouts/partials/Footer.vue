@@ -31,7 +31,7 @@
           </li>
         </ul>
       <div class="px-10">
-        No webdesigners were harmed in the making of this website. (c) All rights reserved.
+        No webdesigners were harmed in the making of this website (c) {{ new Date().getFullYear() }}
       </div>
     </div>
   </footer>

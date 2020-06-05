@@ -24,7 +24,7 @@
 
 @media (min-width: 640px) {
   .page-title {
-    @apply text-4xl font-bold mb-6 text-blue leading-tight;
+    @apply text-4xl font-medium mb-6 text-blue leading-tight;
   }
 }
 
@@ -32,13 +32,13 @@
   @apply leading-loose;
 
   h2 {
-    @apply text-2xl font-semibold mt-8 mb-2 text-blue;
+    @apply text-2xl font-medium mt-8 mb-2 text-blue;
   }
   h3 {
     @apply text-xl mb-2;
   }
   p {
-    @apply mb-4;
+    @apply font-light mb-4;
   }
   ol, ul {
     @apply list-disc ml-8 mb-8;

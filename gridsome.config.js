@@ -21,7 +21,7 @@ module.exports = {
         typeName: 'Note',
         path: './content/notes/**/*.md',
         refs: {
-          category: {
+          categories: {
             typeName: 'Category',
             create: true
           }
@@ -31,7 +31,7 @@ module.exports = {
   ],
   templates: {
     Note: [{
-      path: '/notes/:title',
+      path: '/notes/:slug',
       component: './src/templates/Note.vue'
     }],
     Category: [{
@@ -47,6 +47,14 @@ module.exports = {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
+    }
+  },
+  permalinks: {
+    slugify: {
+      use: '@sindresorhus/slugify',
+      options: {
+        decamelize: false,
+      }
     }
   },
   chainWebpack: config => {

@@ -3,6 +3,10 @@ module.exports = {
   important: false,
   separator: ':',
   theme: {
+    fontFamily: {
+      sans: ['Rubik', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+      mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+    },
     colors: {
       'dark': '#11162b',
       'grey': '#5f6271',
