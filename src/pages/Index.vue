@@ -37,7 +37,7 @@
     </div>
     <transition name="fade" appear>
       <div class="hidden lg:block lg:w-2/5 p-2">
-        <g-image class="object-fill" title="Winner of a Kevin Smith look-a-like competition" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile2x.jpg" immediate="true" />
+        <g-image class="object-fill" title="Winner of a Kevin Smith look-a-like competition" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile.jpg" immediate="true" />
       </div>
     </transition>
   </main>
@@ -56,7 +56,7 @@
   export default {
     computed: {
       previewImage() {
-        return `${this.$static.metadata.siteUrl}/assets/images/default.png`;
+        return `${this.$static.metadata.siteUrl}/images/default.png`;
       },
     },
     metaInfo() {
