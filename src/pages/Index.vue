@@ -46,21 +46,39 @@
 <static-query>
   query {
     metadata {
-      siteName
+      siteName,
+      siteUrl
     }
   }
 </static-query>
 
 <script>
   export default {
-    metaInfo: {
-      title: 'Tamas Erdelyi - PHP & Laravel developer',
-      titleTemplate: '%s',
-      htmlAttrs: {
-        lang: 'en',
+    computed: {
+      previewImage() {
+        console.log(this.$static);
+        return `${this.$static.metadata.siteUrl}/assets/images/default.png`;
       },
-      bodyAttrs: {
-        class: 'bg-dark font-sans'
+    },
+    metaInfo() {
+      return {
+        title: 'Tamas Erdelyi - PHP & Laravel developer',
+        titleTemplate: '%s',
+        htmlAttrs: {
+          lang: 'en',
+        },
+        bodyAttrs: {
+          class: 'bg-dark font-sans'
+        },
+        meta: [
+          { name: 'description', content: 'I\'m a PHP and Laravel developer with 18 years of full-stack experience based in Gloucester, England' },
+          { name: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:site', content: '@iamterdelyi' },
+          { name: 'twitter:title', content: 'Tamas Erdelyi - PHP & Laravel developer' },
+          { name: 'twitter:description', content: 'I\'m a PHP and Laravel developer with 18 years of full-stack experience based in Gloucester, England' },
+          { name: 'twitter:image', content: this.previewImage },
+          { name: 'twitter:creator', content: '@iamterdelyi' },
+        ]
       }
     },
   };
