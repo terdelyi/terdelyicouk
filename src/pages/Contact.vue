@@ -3,7 +3,7 @@
 
     <h1 class="page-title">Contact</h1>
 
-    <div class="font-display mb-4 leading-relaxed"><span class="font-medium">Recruiters shall not pass here!</span> For anyone else: if you have an exciting project idea fill me in with the details in case I might be interested.</div>
+    <div class="font-display mb-4 leading-relaxed">If you have a question, an exciting project idea or job opportunity just fill me in with the details in case I might be interested. I try to reply all emails in a couple days.</div>
 
     <div class="mb-8">
       <form v-on:submit.prevent="handleSubmit" name="contact" action="/contact/thanks/" method="post" data-netlify="true" data-netlify-honeypot="bot-field" autocomplete="off">

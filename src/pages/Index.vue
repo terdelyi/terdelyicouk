@@ -30,7 +30,7 @@
           </li>
         </ul>
       </div>
-      <div class="px-10 md:px-20 lg:pr-32 lg:pl-0 font-light text-dark-white text-sm sm:text-base lg:text-base leading-normal">
+      <div class="px-10 md:px-20 lg:pr-20 lg:pl-0 font-light text-dark-white text-sm sm:text-base lg:text-base leading-normal">
         <div class="text-lg mb-2 font-medium text-whiteish">Can't get enough of me?</div>
         <div>I have a <g-link to="/about/" class="text-barry-white hover:text-pink underline">proper introduction</g-link>, usually write about <g-link to="/notes/" class="text-barry-white underline hover:text-pink">the stuff I'm working on</g-link> or you can also <g-link to="/contact/" class="text-barry-white underline hover:text-pink">drop me a message</g-link>.</div>
       </div>
@@ -56,7 +56,6 @@
   export default {
     computed: {
       previewImage() {
-        console.log(this.$static);
         return `${this.$static.metadata.siteUrl}/assets/images/default.png`;
       },
     },
@@ -68,7 +67,7 @@
           lang: 'en',
         },
         bodyAttrs: {
-          class: 'bg-dark font-sans'
+          class: 'bg-dark font-sans antialiased'
         },
         meta: [
           { name: 'description', content: 'I\'m a PHP and Laravel developer with 18 years of full-stack experience based in Gloucester, England' },

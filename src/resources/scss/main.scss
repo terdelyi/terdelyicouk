@@ -24,7 +24,7 @@
 
 @media (min-width: 640px) {
   .page-title {
-    @apply text-4xl font-medium mb-6 text-blue leading-tight;
+    @apply text-4xl font-semibold mb-6 text-blue leading-tight;
   }
 }
 
@@ -39,6 +39,10 @@
   }
   p {
     @apply font-light mb-4;
+
+    code {
+      @apply p-1 text-sm rounded text-blue bg-whiteish border border-grey-jr;
+    }
   }
   ol, ul {
     @apply list-disc ml-8 mb-8;
@@ -51,11 +55,7 @@
     }
   }
   pre[class*="language-"] {
-    @apply mb-6 p-4 px-5 text-sm rounded-md overflow-x-auto font-mono;
-  }
-
-  code {
-    @apply p-1 text-sm rounded text-blue bg-whiteish;
+    @apply -mx-16 mb-6 py-5 px-6 text-sm rounded-lg overflow-x-auto font-mono;
   }
 }
 

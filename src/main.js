@@ -17,7 +17,7 @@ export default function (Vue, { head }) {
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = {lang: 'en'}
-    head.bodyAttrs = {class: 'bg-barry-white font-sans'}
+    head.bodyAttrs = {class: 'bg-barry-white font-sans antialiased'}
     head.link.push({
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap'
