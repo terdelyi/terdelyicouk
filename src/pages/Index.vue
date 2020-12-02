@@ -1,11 +1,11 @@
 <template>
   <main class="py-16 md:py-0 md:w-screen md:h-screen w-full lg:max-w-screen-lg lg:m-auto flex items-center justify-center text-center lg:text-left">
     <div class="lg:w-3/5 text-whiteish">
-      <div class="mb-3 sm:mb-2 text-xl font-light">Hello, my name is Tamas.</div>
+      <div class="mb-3 sm:mb-6 text-xl font-light">Hello, my name is Tamas.</div>
       <div class="mb-3 sm:mb-2 whitespace-pre-line text-4xl sm:text-6xl font-bold leading-none">I'm a PHP and
         Laravel developer</div>
-      <div class="mb-8 whitespace-pre-line text-xl sm:text-2xl leading-normal">with <span class="font-medium text-pink" style="text-shadow: 0px 0px 14px #FD1383;">18 years of full-stack experience</span>
-        based in Gloucester, England</div>
+      <div class="mb-8 whitespace-pre-line text-xl sm:text-2xl leading-normal">with <span class="font-medium text-pink" style="text-shadow: 0px 0px 14px #FD1383;">{{ experience }} years of full-stack experience</span>
+        based in Gloucestershire, England</div>
       <div class="mb-8 sm:mb-12">
         <ul class="inline-flex">
           <li>
@@ -58,6 +58,9 @@
       previewImage() {
         return `${this.$static.metadata.siteUrl}/images/default.png`;
       },
+      experience() {
+        return new Date().getFullYear() - 2002;
+      }
     },
     metaInfo() {
       return {

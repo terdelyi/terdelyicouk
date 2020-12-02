@@ -46,6 +46,9 @@
   }
   ol, ul {
     @apply list-disc ml-8 mb-8;
+    li {
+      @apply font-light mb-4;
+    }
   }
   a {
     @apply underline text-pink;
@@ -56,6 +59,13 @@
   }
   pre[class*="language-"] {
     @apply -mx-16 mb-6 py-5 px-6 text-sm rounded-lg overflow-x-auto font-mono;
+  }
+
+  @media (max-width: 1024px) {
+    pre[class*="language-"] {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 
