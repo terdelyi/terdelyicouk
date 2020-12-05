@@ -3,8 +3,8 @@
     <main class="py-8 lg:py-0 lg:w-screen lg:h-screen w-full lg:max-w-screen-lg lg:m-auto flex items-center justify-center text-center lg:text-left">
       <div class="lg:w-3/5 text-whiteish">
         <div class="mb-2 lg:mb-6 text-lg sm:text-xl font-light">Hello, my name is Tamas.</div>
-        <div class="block lg:hidden w-1/2 sm:w-1/3 mx-auto mb-4">
-          <g-image class="object-fill" title="Winner of a Kevin Smith look-a-like competition" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile.jpg" immediate="true" />
+        <div class="block lg:hidden w-1/2 sm:w-1/3 mx-auto mb-4">§§§
+          <g-image class="object-fill" title="Winner of a Kevin Smith look-a-like competition" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile.png" />
         </div>
         <div class="mb-3 sm:mb-2 whitespace-pre-line text-4xl sm:text-6xl font-bold leading-none">I'm a PHP and
           Laravel developer</div>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="hidden lg:block lg:w-2/5 p-2">
-        <g-image class="object-fill" title="Winner of a Kevin Smith look-a-like competition" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile.jpg" immediate="true" />
+        <g-image class="object-fill" title="Winner of a Kevin Smith look-a-like competition" alt="Winner of a Kevin Smith look-a-like competition" src="~/assets/images/profile.png" />
       </div>
     </main>
   </transition>
