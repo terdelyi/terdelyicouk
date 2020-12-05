@@ -38,7 +38,7 @@
     @apply text-xl mb-2;
   }
   p {
-    @apply font-light mb-4;
+    @apply font-light leading-relaxed mb-4;
 
     code {
       @apply p-1 text-sm rounded text-blue bg-whiteish border border-grey-jr;
@@ -47,7 +47,7 @@
   ol, ul {
     @apply list-disc ml-8 mb-8;
     li {
-      @apply font-light mb-4 leading-normal;
+      @apply font-light mb-4 leading-relaxed;
     }
   }
   a {

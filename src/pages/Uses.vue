@@ -72,13 +72,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  ul {
-    li {
-      div {
-        @apply leading-normal;
-      }
-    }
-  }
   h4 {
     color: #103b96;
     font-weight: 400;
