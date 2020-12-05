@@ -3,9 +3,9 @@
 
       <h1 class="page-title">Notes</h1>
 
-      <article class="leading-relaxed mb-10" v-for="note in $page.allNote.edges" :key="note.node.id">
+      <article class="leading-7 mb-10" v-for="note in $page.allNote.edges" :key="note.node.id">
         <h3 class="text-xl font-header leading-tight mb-3 font-medium"><g-link class="text-pink hover:text-gray-600 hover:underline" :to="note.node.path">{{ note.node.title }}</g-link></h3>
-        <div class="leading-relaxed font-light">{{ note.node.excerpt }}</div>
+        <div class="font-light">{{ note.node.excerpt }}</div>
       </article>
 
       <div v-if="$page.allNote.pageInfo.totalPages > 1" class="pagination">

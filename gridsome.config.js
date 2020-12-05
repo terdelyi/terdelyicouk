@@ -5,15 +5,6 @@ module.exports = {
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
-      options: {
-        tailwindConfig: './tailwind.config.js',
-        purgeConfig: {},
-        presetEnvConfig: {},
-        shouldPurge: false,
-        shouldImport: true,
-        shouldTimeTravel: true,
-        shouldPurgeUnusedKeyframes: true,
-      }
     },
     {
       use: '@gridsome/source-filesystem',

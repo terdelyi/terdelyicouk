@@ -43,7 +43,11 @@
         </li>
         <li>
           <h4><a href="https://www.apple.com/uk/airpods-pro/">AirPods Pro</a></h4>
-          <div>I know, what the hell do I need another headset for?! Try it for phone calls, listening podcasts and music in the bed and you'll understand. Brilliant earphones with a very cool charging method.</div>
+          <div>I know, why the hell do I need another headset?! Try it for phone calls, listening podcasts and music in the bed and you'll understand. Very comfy earphones with a super cool charging method.</div>
+        </li>
+        <li>
+          <h4><a href="https://www.apple.com/uk/airpods-pro/">Apple iPhone 12 - (PRODUCT)Red</a></h4>
+          <div>I'm a loyal iPhone user since the 3GS. I only had three other iPhones after that: an iPhone 4s, an iPhone 6 and an iPhone 7. After four years I earned some kind of reward, so I bought the latest model, but not the Pro, because I couldn't see the potentials of the LINAR sensor and an additional camera in my everyday.</div>
         </li>
       </ul>
       <h2>Development</h2>

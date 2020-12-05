@@ -6,7 +6,7 @@
 .pagination {
   @apply inline-flex;
   a {
-    @apply bg-whiteish text-grey px-2 py-1 rounded mr-1 leading-none font-semibold;
+    @apply bg-whiteish dark:bg-grey text-grey dark:text-grey-jr px-2 py-1 rounded mr-1 leading-none font-semibold;
 
     &:hover {
       @apply bg-pink text-whiteish;
@@ -19,35 +19,35 @@
 }
 
 .page-title {
-  @apply text-3xl font-bold mb-6 text-blue leading-tight;
+  @apply text-3xl font-bold mb-6 text-blue dark:text-grey leading-tight;
 }
 
 @media (min-width: 640px) {
   .page-title {
-    @apply text-4xl font-semibold mb-6 text-blue leading-tight;
+    @apply text-4xl font-semibold mb-6 text-blue dark:text-grey leading-tight;
   }
 }
 
 .has-content {
-  @apply leading-loose;
+  @apply leading-7;
 
   h2 {
-    @apply text-2xl font-medium mt-8 mb-2 text-blue;
+    @apply text-2xl font-medium mt-8 mb-2 text-blue dark:text-grey;
   }
   h3 {
     @apply text-xl mb-2;
   }
   p {
-    @apply font-light leading-relaxed mb-4;
+    @apply font-light mb-6;
 
     code {
-      @apply p-1 text-sm rounded text-blue bg-whiteish border border-grey-jr;
+      @apply p-1 text-sm rounded text-blue dark:text-dark bg-whiteish dark:bg-grey;
     }
   }
   ol, ul {
     @apply list-disc ml-8 mb-8;
     li {
-      @apply font-light mb-4 leading-relaxed;
+      @apply font-light mb-2 leading-7;
     }
   }
   a {
@@ -58,7 +58,7 @@
     }
   }
   pre[class*="language-"] {
-    @apply -mx-16 mb-6 py-5 px-6 text-sm rounded-lg overflow-x-auto font-mono;
+    @apply -mx-16 mb-6 py-5 px-6 text-sm rounded-lg overflow-x-auto font-mono bg-dark;
   }
 
   @media (max-width: 1024px) {
@@ -74,10 +74,10 @@
   -moz-appearance: none;
   appearance: none;
 
-  @apply w-full px-4 py-2 bg-whiteish rounded border border-grey-jr;
+  @apply w-full px-4 py-2 bg-whiteish dark:bg-grey rounded border border-grey-jr dark:border-grey;
 
   &::placeholder {
-    @apply text-grey-jr;
+    @apply text-grey-jr dark:text-dark;
   }
 
   &:focus {
