@@ -47,7 +47,7 @@
   ol, ul {
     @apply list-disc ml-8 mb-8;
     li {
-      @apply font-light mb-4;
+      @apply font-light mb-4 leading-normal;
     }
   }
   a {

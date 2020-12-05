@@ -3,7 +3,7 @@
     <HeaderPartial/>
 
     <main id="main">
-      <div class="container max-w-screen-md mx-auto px-5 md:px-0 py-6 md:py-10 text-dark">
+      <div class="container max-w-screen-md mx-auto px-4 md:px-0 py-6 md:py-10 text-dark">
           <slot/>
       </div>
     </main>

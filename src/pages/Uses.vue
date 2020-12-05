@@ -75,7 +75,7 @@ export default {
   ul {
     li {
       div {
-        line-height: 1.8em;
+        @apply leading-normal;
       }
     }
   }
