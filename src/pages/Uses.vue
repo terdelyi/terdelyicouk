@@ -34,10 +34,6 @@
           <div>Great for HD conferences, especially in these remote working times. Took me a while to buy it, but I use it everyday since.</div>
         </li>
         <li>
-          <h4><a href="https://amzn.to/3mG77N9">Blue Yeti</a></h4>
-          <div>It's a great microphone, but not for podcasting as it records every tiny details in the background. However I've stopped podcasting recently so replacing it is not my priority at the moment.</div>
-        </li>
-        <li>
           <h4><a href="https://amzn.to/3gfP7ae">Sony WH‑1000XM3</a></h4>
           <div>I'm not a big fan of Sony products, but this one really kicks Bose Quietcomfort 35 in a butt. I wish it could connect to multiple devices at the same time (they fixed this in MK4) and it could turn off automatically when I'm using it with the Macbook.</div>
         </li>
@@ -50,7 +46,22 @@
           <div>I'm a loyal iPhone user since the 3GS. I only had three other iPhones after that: an iPhone 4s, an iPhone 6 and an iPhone 7. After four years I earned some kind of reward, so I bought the latest model, but not the Pro, because I couldn't see the potentials of the LINAR sensor and an additional camera in my everyday.</div>
         </li>
       </ul>
-      <h2>Development</h2>
+      <h2>Desk</h2>
+      <ul>
+        <li>
+          <h4><a href="https://bit.ly/2X3C0zX">Autonomous SmartDesk 2 DIY standing frame</a></h4>
+          <div>I bought this on a Black Friday Deal for bargain. I've used a standing desk previously and I was missing it sometimes, however you need to be discipline to use it occasionally and find the right balance between standing and sitting. I have three height setups at the moment: sitting, making music and full standing.</div>
+        </li>
+        <li>
+          <h4><a href="https://www.ikea.com/gb/en/p/oevraryd-table-top-bamboo-90305723/">IKEA Övraryd table top, bamboo, 150x78</a></h4>
+          <div>I switched to this (dining) table top from a Bekant 120x60. I love desks with large depth and finally I have decent space for all of my stuff. Had to pre-drill some new holes for make it work with the Autonomous frame, but they are a close perfect match.</div>
+        </li>
+        <li>
+          <h4><a href="https://amzn.to/3pBnZpo">TaoTronics LED Desk Lamp, 14W with USB Charging Port</a></h4>
+          <div>I was looking for a stylish LED table lamp when I found this fine product of TaoTronics. Not perfect, but it does the job.</div>
+        </li>
+      </ul>
+      <h2>Dev tools</h2>
       <ul>
         <li>
           <h4><a href="https://www.jetbrains.com/phpstorm/">PHPStorm</a></h4>
@@ -73,7 +84,7 @@
           <div>I was a massive Homestead user for years on Mac after I ditched MAMP Pro then realised most of my projects don't require any virtualization or specific packages. It's still my main environment, but the more I learn about Docker it's possible that one day it follows MAMP's fate.</div>
         </li>
       </ul>
-      <h2>Music</h2>
+      <h2>Music production</h2>
       <ul>
         <li>
           <h4><a href="https://amzn.to/3lJxwbR">KRK Rokit 5 G4 White Noise</a></h4>
@@ -94,6 +105,10 @@
         <li>
           <h4><a href="https://amzn.to/2VEkfGN">EMU Xboard 25</a></h4>
           <div>It is my first MIDI keyboard. About 12 years old, I wanted to sell it multiple times, but somehow stayed with me. The knobs and triggers are old-school comparing to the Akai Mini, but I guess that also gives its charm.</div>
+        </li>
+        <li>
+          <h4><a href="https://amzn.to/3mG77N9">Blue Yeti</a></h4>
+          <div>It's a great microphone, but not for podcasting as it records every tiny details in the background. However I've stopped podcasting recently so replacing it is not my priority at the moment.</div>
         </li>
         <li>
           <h4><a href="https://amzn.to/2VHaFmp">Audio-Technica ATH-M50X</a></h4>
