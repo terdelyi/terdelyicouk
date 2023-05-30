@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/notes"
+  to = "/posts"
+  status = 301
+  force = true
