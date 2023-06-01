@@ -41,7 +41,7 @@ article {
     }
   }
   ol, ul {
-    @apply list-image-[url('../images/check.png')] dark:list-image-[url('../images/check-dark.png')] -ml-1 mb-6 leading-relaxed;
+    @apply list-image-[url('~/assets/images/check.png')] dark:list-image-[url('~/assets/images/check-dark.png')] -ml-1 mb-6 leading-relaxed;
     li {
       @apply mb-2 pl-1;
     }

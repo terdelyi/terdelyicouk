@@ -52,7 +52,9 @@ export default defineNuxtConfig({
     ogImage: {
         fonts: [
             'Inter:400;500;600;700;800'
-        ]
+        ],
+        siteUrl: 'https://terdelyi.co.uk',
+        runtimeSatori: false,
     },
     css: ['~/assets/sass/main.scss'],
     postcss: {
@@ -61,4 +63,7 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    experimental: {
+        payloadExtraction: false
+    }
 })
