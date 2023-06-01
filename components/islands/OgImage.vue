@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full flex text-left items-center justify-between bg-no-repeat bg-right-bottom" :style="{ backgroundColor: '#eeeeee', backgroundImage: `url(` + '~/images/og-image.png' + `)` }">
+  <div class="w-full h-full flex text-left items-center justify-between bg-no-repeat bg-right-bottom" :style="{ backgroundColor: '#eeeeee', backgroundImage: `url(` + '~/assets/images/og-image.png' + `)` }">
     <div class="w-2/3 pl-20 pr-10">
       <h1 :style="{ fontSize: '85px', color: '#F5085E' }" class="tracking-tight font-extrabold m-0">Tamas Erdelyi</h1>
       <div :style="{ fontSize: '50px', color: '#F5085E' }" class="tracking-tight mb-6 font-bold">Senior Web Developer</div>
