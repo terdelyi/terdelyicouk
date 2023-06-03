@@ -1,5 +1,3 @@
-import shiki from 'shiki'
-
 const experience = new Date().getFullYear() - 2002;
 
 export default defineNuxtConfig({
@@ -62,8 +60,5 @@ export default defineNuxtConfig({
             tailwindcss: {},
             autoprefixer: {},
         },
-    },
-    experimental: {
-        payloadExtraction: false
     }
 })
