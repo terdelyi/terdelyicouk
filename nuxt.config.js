@@ -31,6 +31,9 @@ export default defineNuxtConfig({
             ],
         }
     },
+    routeRules: {
+        '/contact': { prerender: true },
+    },
     modules: [
         '@nuxt/content',
         'nuxt-og-image',
