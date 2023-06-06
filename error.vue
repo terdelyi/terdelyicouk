@@ -4,9 +4,9 @@
       <DarkModeSwitch />
     </div>
     <div class="max-w-screen-md m-auto flex flex-col items-center text-center">
-      <h1 class="text-4xl font-bold mb-8">This page doesn't exist.</h1>
+      <h1 class="text-4xl font-bold mb-8 dark:text-grey-400">This page doesn't exist.</h1>
       <div>
-        Let's start this again and <NuxtLink to="/about" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">go back to the home page</NuxtLink>.
+        Let's start this again and <NuxtLink to="/" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">go back to the home page</NuxtLink>.
       </div>
     </div>
   </main>
