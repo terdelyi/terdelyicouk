@@ -4,7 +4,7 @@
       <DarkModeSwitch />
     </div>
     <div class="w-full sm:max-w-screen-lg lg:py-0 m-auto flex items-center text-center lg:text-left">
-        <div class="w-full lg:w-3/5 mb-20">
+        <div class="w-full lg:w-3/5 mb-0">
           <div class="mb-2 lg:mb-4 text-xl md:text-lg leading-relaxed">Hi, my name is Tamas 👋</div>
           <div class="whitespace-pre-line mb-4 sm:mb-1 px-4 sm:px-0 whitespace-pre-line text-4xl sm:text-5xl tracking-tight text-blue-600 dark:text-grey-400 font-extrabold" v-html="title"></div>
           <div class="sm:whitespace-pre-line px-10 sm:px-0 text-blue-600 dark:text-grey-400 text-xl sm:text-2xl tracking-tight" v-html="subtitle"></div>
@@ -45,8 +45,8 @@
 
 <script setup>
   const experience = new Date().getFullYear() - 2002;
-  const title = `I'm a Senior Web Developer`
-  const subtitle = `with <span class="font-semibold text-pink">${experience} years of full-stack experience</span>
+  const title = `Senior Backend Engineer`
+  const subtitle = `with <span class="font-bold text-pink">${experience} years of full-stack experience</span>
   based in Gloucestershire, United Kingdom`;
 
   definePageMeta({

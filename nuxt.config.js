@@ -18,15 +18,15 @@ export default defineNuxtConfig({
                     href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap'
                 }
             ],
-            title: 'Tamas Erdelyi - Senior Web Developer',
-            description: `Tamas is a Senior Web Developer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
+            title: 'Tamas Erdelyi - Senior Backend Engineer',
+            description: `Tamas is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
             meta: [
-                { ogTitle: 'Tamas Erdelyi - Senior Web Developer' },
-                { ogDescription: `Tamas is a Senior Web Developer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom` },
+                { ogTitle: 'Tamas Erdelyi - Senior Backend Engineer' },
+                { ogDescription: `Tamas is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom` },
                 { twitterCard: 'summary_large_image' },
                 { twitterSite: '@terdelyi' },
-                { twitterTitle: 'Tamas Erdelyi - Senior Web Developer' },
-                { twitterDescription: `Tamas is a Senior Web Developer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom` },
+                { twitterTitle: 'Tamas Erdelyi - Senior Backend Engineer' },
+                { twitterDescription: `Tamas is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom` },
                 { twitterCreator: '@terdelyi' },
             ],
         }
