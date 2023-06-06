@@ -1,6 +1,6 @@
 [build]
   publish = 'dist'
-  command = 'npx nuxi generate'
+  command = 'npm run generate'
 
 [[redirects]]
   from = "/notes"
