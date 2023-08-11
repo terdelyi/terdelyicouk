@@ -1,3 +1,7 @@
+<script setup>
+const experienceInYears = new Date().getFullYear() - 2002
+</script>
+
 <template>
   <article class="max-w-screen-md">
     <h1>About</h1>
@@ -51,11 +55,3 @@
     </div>
   </article>
 </template>
-
-<script setup>
-  const experienceInYears = new Date().getFullYear() - 2002
-
-  defineOgImage({
-    component: 'Default',
-  })
-</script>

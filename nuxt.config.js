@@ -31,15 +31,13 @@ export default defineNuxtConfig({
             ],
         },
     },
-    site: {
-        url: 'https://terdelyi.co.uk',
-    },
     routeRules: {
-        '/contact': { prerender: true },
+        '/contact': {
+            prerender: true
+        },
     },
     modules: [
         '@nuxt/content',
-        'nuxt-og-image',
     ],
     content: {
         highlight: {
@@ -50,24 +48,16 @@ export default defineNuxtConfig({
         },
         markdown: {
             anchorLinks: false,
+            mdc: false,
         },
-        'mdc': false,
     },
-    ogImage: {
-        fonts: [
-            'Libre+Franklin:400;500;600;700;800'
-        ],
-    },
-    css: ['~/assets/sass/main.scss'],
+    css: [
+        '~/assets/sass/main.scss'
+    ],
     postcss: {
         plugins: {
             tailwindcss: {},
             autoprefixer: {},
         },
     },
-    nitro: {
-        prerender: {
-            crawlLinks: true,
-        }
-    }
 })

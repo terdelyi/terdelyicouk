@@ -1,3 +1,7 @@
+<script setup>
+const currentYear = new Date().getFullYear()
+</script>
+
 <template>
   <footer class="bg-grey-400 dark:bg-grey-750 py-6 text-grey-600 dark:text-grey-500">
     <div class="max-w-screen-md mx-auto text-center">
@@ -29,7 +33,3 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-  const currentYear = new Date().getFullYear()
-</script>

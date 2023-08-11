@@ -134,9 +134,3 @@
     </div>
   </article>
 </template>
-
-<script setup>
-  defineOgImage({
-    component: 'OgImage',
-  })
-</script>
