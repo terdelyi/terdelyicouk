@@ -29,7 +29,7 @@ export default defineNuxtConfig({
                 { twitterDescription: `Tamas is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom` },
                 { twitterCreator: '@terdelyi' },
             ],
-        }
+        },
     },
     site: {
         url: 'https://terdelyi.co.uk',
