@@ -1,5 +1,6 @@
 ---
 title: "Don’t be OK with spaghetti code"
+og_title: "Don’t be OK with spaghetti code 🍝"
 excerpt: A few weeks ago, I received a job description through a recruiter where one sentence instantly caught my attention, inspiring me to share my thoughts about code debt, the importance of projecting the right message to applicants, and igniting a culture of code improvement.
 date: 2023-08-10
 tags: ['Tests', 'Clean Coder']

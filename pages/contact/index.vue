@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-  defineOgImageStatic({
+  defineOgImage({
     component: 'OgImage',
   })
 </script>

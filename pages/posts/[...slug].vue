@@ -2,7 +2,7 @@
   <ContentDoc>
     <template v-slot="{ doc }">
       <article>
-        <OgImageStatic component="PostOgImage" :title="doc.title" />
+        <OgImage component="PostOgImage" :title="doc.og_title || doc.title" />
         <h1>{{ doc.title }}</h1>
         <div class="has-content">
           <div class="mb-4">

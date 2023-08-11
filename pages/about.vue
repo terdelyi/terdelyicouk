@@ -55,7 +55,7 @@
 <script setup>
   const experienceInYears = new Date().getFullYear() - 2002
 
-  defineOgImageStatic({
+  defineOgImage({
     component: 'OgImage',
   })
 </script>

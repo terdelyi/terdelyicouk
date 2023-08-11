@@ -54,7 +54,7 @@
     layout: false,
   });
 
-  defineOgImageStatic({
+  defineOgImage({
     component: 'OgImage',
   })
 </script>
