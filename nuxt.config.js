@@ -31,6 +31,9 @@ export default defineNuxtConfig({
             ],
         }
     },
+    site: {
+        url: 'https://terdelyi.co.uk',
+    },
     routeRules: {
         '/contact': { prerender: true },
     },
@@ -54,7 +57,6 @@ export default defineNuxtConfig({
         fonts: [
             'Inter:400;500;600;700;800'
         ],
-        siteUrl: 'https://terdelyi.co.uk',
         runtimeSatori: false,
     },
     css: ['~/assets/sass/main.scss'],
@@ -63,5 +65,10 @@ export default defineNuxtConfig({
             tailwindcss: {},
             autoprefixer: {},
         },
+    },
+    nitro: {
+        prerender: {
+            crawlLinks: true,
+        }
     }
 })
