@@ -57,7 +57,6 @@ export default defineNuxtConfig({
         fonts: [
             'Inter:400;500;600;700;800'
         ],
-        runtimeSatori: false,
     },
     css: ['~/assets/sass/main.scss'],
     postcss: {
