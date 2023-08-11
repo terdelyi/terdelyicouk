@@ -63,6 +63,17 @@ article {
       margin-right: 0;
     }
   }
+
+  blockquote {
+    @apply border-l-4 pl-4 border-blue-200 -ml-5;
+    p {
+      @apply italic font-bold text-blue-450 font-mono py-0 leading-relaxed;
+    }
+  }
+
+  aside {
+    @apply bg-blue-600 text-grey-100 p-4 rounded-md font-semibold;
+  }
 }
 
 form {
