@@ -55,6 +55,6 @@
   });
 
   defineOgImage({
-    component: 'OgImage',
+    component: 'Default',
   })
 </script>

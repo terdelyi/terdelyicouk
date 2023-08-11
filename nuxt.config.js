@@ -55,7 +55,7 @@ export default defineNuxtConfig({
     },
     ogImage: {
         fonts: [
-            'Inter:400;500;600;700;800'
+            'Libre+Franklin:400;500;600;700;800'
         ],
     },
     css: ['~/assets/sass/main.scss'],
