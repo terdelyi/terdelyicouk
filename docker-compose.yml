@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  nuxt:
+    build: .
+    command: "npm run dev"
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+    ports:
+      - "3000:3000"
+      - "24678:24678"
