@@ -12,7 +12,7 @@ useSeoMeta({
   ogTitle: 'Tamas Erdelyi - Senior Backend Engineer',
   ogUrl: `${config.public.baseURL}`,
   ogType: 'website',
-  ogDescription: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
+  //ogDescription: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
   ogImage: `${config.public.baseURL}/generic.png`,
   twitterCard: 'summary_large_image',
   twitterDomain: `${config.public.baseURL}`,

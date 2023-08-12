@@ -3,6 +3,7 @@ title: "Don’t be OK with spaghetti code"
 description: "I received a job description where one sentence instantly caught my attention, inspiring me to share my thoughts about code debt and igniting a culture of code improvement."
 date: "2023-08-10"
 tags: ['Testing', 'Clean Code']
+image: '/posts/dont-be-ok-with-spaghetti-code.png'
 ---
 A few weeks ago, I received a job description through a recruiter, and one sentence instantly caught my attention:
 
@@ -41,7 +42,7 @@ Sadly, this cycle is pretty much never-ending. You might think when everything i
 
 The break is temporary. It is good for businesses to slow down a little, generate some easy revenues, and build a passive budget for the future. It’s also beneficial for developers to catch up, review pain points, make plans and decide what’s next in line with the business. The following day, you can start to add new features, continue maintaining your code, and forget about making notes in job ads like the one mentioned at the beginning of this post.
 
-## Don’t warn, communicate the plan instead
+## Don’t just warn, communicate the plan instead!
 
 We can all agree that the level of transparency in that job description is remarkable, but emphasising the interest, moreover an approved decision for the change would be more important.
 
