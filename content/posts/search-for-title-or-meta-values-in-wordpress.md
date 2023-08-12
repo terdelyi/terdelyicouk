@@ -1,10 +1,9 @@
 ---
 title: "WordPress tip: Searching for a keyword in post titles or meta query values"
-excerpt: WordPress is an old school, straightforward CMS, but it also could be a real pain in the ass for common tasks like searching. By default, WP Query searches for keywords which appears in the title and meta values at the same time. You can't pick one or other. Of course there's a few workarounds, but I have a dead simple trick for you.
-date: 2020-05-27
+description: "WordPress is an old school, straightforward CMS, but it also could be a real pain in the ass for common tasks like searching. By default, WP Query searches for keywords which appears in the title and meta values at the same time. You can't pick one or other. Of course there's a few workarounds, but I have a dead simple trick for you."
+date: "2020-05-27"
 tags: ['WordPress']
-slug: search-for-title-or-meta-values-in-wordpress
-preview: ./search-meta-values-wordpress-preview.png 
+image: '/posts/search-for-title-or-meta-values-in-wordpress.png'
 ---
 ## How does searching work in WP Query?
 
