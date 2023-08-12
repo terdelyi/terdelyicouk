@@ -21,7 +21,6 @@ export default defineNuxtConfig({
     ],
     content: {
         watch: false,
-        navigation: false,
         highlight: {
             theme: {
                 default: 'github-light',
