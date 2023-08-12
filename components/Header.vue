@@ -1,3 +1,7 @@
+<script setup>
+const menuActive = ref(false);
+</script>
+
 <template>
   <header class="relative bg-blue-400 dark:bg-grey-800 text-grey-200 dark:text-grey-400">
     <div class="w-full md:max-w-screen-md flex items-center justify-between mx-auto">
@@ -45,7 +49,3 @@
     </div>
   </header>
 </template>
-
-<script setup>
-  const menuActive = ref(false);
-</script>

@@ -1,3 +1,14 @@
+<script setup>
+const experienceInYears = new Date().getFullYear() - 2002
+
+useHead({
+  title: 'About',
+})
+useSeoMeta({
+  description: 'This is where I\'m coming from, who I am and what can I do for you',
+})
+</script>
+
 <template>
   <article class="max-w-screen-md">
     <h1>About</h1>
@@ -20,7 +31,7 @@
       </p>
       <p>
         Then came the internet. I started coding websites for Netscape Navigator through a dial-up modem
-        with FrontPage Express, using the earliest versions of HTML and CSS. In my twenties, <NuxtLink src="https://moziplussz.hu">I founded a movie website</NuxtLink>
+        with FrontPage Express, using the earliest versions of HTML and CSS. In my twenties, <NuxtLink src="https://moziplussz.hu">I launched a movie website</NuxtLink>
         which I still own till today, and began to deliver real projects for real companies.
       </p>
       <div class="mb-6 md:-mx-16">
@@ -51,11 +62,3 @@
     </div>
   </article>
 </template>
-
-<script setup>
-  const experienceInYears = new Date().getFullYear() - 2002
-
-  defineOgImageStatic({
-    component: 'OgImage',
-  })
-</script>

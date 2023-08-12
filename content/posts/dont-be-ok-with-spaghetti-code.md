@@ -1,8 +1,8 @@
 ---
 title: "Don’t be OK with spaghetti code"
-excerpt: A few weeks ago, I received a job description through a recruiter where one sentence instantly caught my attention, inspiring me to share my thoughts about code debt, the importance of projecting the right message to applicants, and igniting a culture of code improvement.
-date: 2023-08-10
-tags: ['Tests', 'Clean Coder']
+description: "I received a job description where one sentence instantly caught my attention, inspiring me to share my thoughts about code debt and igniting a culture of code improvement."
+date: "2023-08-10"
+tags: ['Testing', 'Clean Code']
 ---
 A few weeks ago, I received a job description through a recruiter, and one sentence instantly caught my attention:
 

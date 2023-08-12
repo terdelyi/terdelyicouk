@@ -1,3 +1,12 @@
+<script setup>
+useHead({
+  title: 'Contact',
+})
+useSeoMeta({
+  description: 'If you\'d like to contact me this is the page where you drop me a message',
+})
+</script>
+
 <template>
   <article>
     <h1>Let's talk!</h1>
@@ -27,9 +36,3 @@
     </div>
   </article>
 </template>
-
-<script setup>
-  defineOgImageStatic({
-    component: 'OgImage',
-  })
-</script>

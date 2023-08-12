@@ -1,8 +1,25 @@
+<script setup>
+const formatDate = (dateString) => {
+  const date = new Date(dateString)
+  return new Intl.DateTimeFormat('default', {dateStyle: 'medium'}).format(date)
+}
+const formatTags = (tags) => {
+  return tags.join(', ')
+}
+const config = useRuntimeConfig()
+const route = useRoute()
+
+useSeoMeta({
+  ogImage: `${config.public.baseURL}${route.path}.png`
+})
+
+console.log(route.path)
+</script>
+
 <template>
-  <ContentDoc>
+  <ContentDoc :head="false">
     <template v-slot="{ doc }">
       <article>
-        <OgImageStatic component="PostOgImage" :title="doc.title" />
         <h1>{{ doc.title }}</h1>
         <div class="has-content">
           <div class="mb-4">
@@ -25,14 +42,4 @@
     </template>
   </ContentDoc>
 </template>
-
-<script setup>
-  const formatDate = (dateString) => {
-    const date = new Date(dateString);
-    return new Intl.DateTimeFormat('default', {dateStyle: 'medium'}).format(date);
-  }
-  const formatTags = (tags) => {
-    return tags.join(', ');
-  }
-</script>
 

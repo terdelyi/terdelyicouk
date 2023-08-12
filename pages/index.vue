@@ -1,3 +1,20 @@
+<script setup>
+const experience = new Date().getFullYear() - 2002;
+const title = `I'm a Senior
+  Backend Engineer`
+const subtitle = `with <span class="font-bold text-pink">${experience} years of full-stack experience</span>
+  based in Gloucestershire, United Kingdom`;
+const config = useRuntimeConfig()
+
+definePageMeta({
+  layout: false,
+});
+useSeoMeta({
+  description: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
+  ogImage: `${config.public.baseURL}/generic.png`
+})
+</script>
+
 <template>
   <main class="relative h-screen flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
     <div class="absolute top-6 right-6 text-grey-600 dark:text-grey-200">
@@ -42,19 +59,3 @@
       </div>
   </main>
 </template>
-
-<script setup>
-  const experience = new Date().getFullYear() - 2002;
-  const title = `I'm a Senior
-  Backend Engineer`
-  const subtitle = `with <span class="font-bold text-pink">${experience} years of full-stack experience</span>
-  based in Gloucestershire, United Kingdom`;
-
-  definePageMeta({
-    layout: false,
-  });
-
-  defineOgImageStatic({
-    component: 'OgImage',
-  })
-</script>

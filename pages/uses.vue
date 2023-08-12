@@ -1,3 +1,12 @@
+<script setup>
+useHead({
+  title: 'Uses',
+})
+useSeoMeta({
+  description: 'This is my tech stack and most of the gadgets I\'m using every day',
+})
+</script>
+
 <template>
   <article class="px-0">
     <h1>My tech stack and additional gadgets</h1>
@@ -134,9 +143,3 @@
     </div>
   </article>
 </template>
-
-<script setup>
-  defineOgImageStatic({
-    component: 'OgImage',
-  })
-</script>
