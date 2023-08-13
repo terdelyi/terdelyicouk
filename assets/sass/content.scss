@@ -65,14 +65,14 @@ article {
   }
 
   blockquote {
-    @apply border-l-4 pl-4 border-blue-200 -ml-5;
+    @apply border-l-2 pl-5 border-blue-600 -ml-5;
     p {
-      @apply italic font-bold text-blue-450 font-mono py-0 leading-relaxed;
+      @apply text-lg italic text-blue-600 py-0;
     }
   }
 
   aside {
-    @apply bg-blue-600 text-grey-100 p-4 rounded-md font-semibold;
+    @apply bg-blue-500 text-grey-100 p-6 rounded-md shadow-md;
   }
 }
 

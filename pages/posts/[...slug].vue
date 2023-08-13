@@ -9,15 +9,19 @@ const formatTags = (tags) => {
 const config = useRuntimeConfig()
 const route = useRoute()
 
-useSeoMeta({
-  ogImage: `${config.public.baseURL}${route.path}.png`
-})
+definePageMeta({
+  layout: 'posts',
+});
 
-console.log(route.path)
+useSeoMeta({
+  //ogImage: `${config.public.content.host}${route.path}.png`,
+  //image: `${config.public.content.host}${route.path}.png`,
+  author: 'Tamas Erdelyi',
+})
 </script>
 
 <template>
-  <ContentDoc :head="false">
+  <ContentDoc>
     <template v-slot="{ doc }">
       <article>
         <h1>{{ doc.title }}</h1>
