@@ -5,7 +5,7 @@ date: "2023-08-10"
 tags: ['Testing', 'Clean Code']
 image: '/posts/dont-be-ok-with-spaghetti-code.png'
 ---
-A few weeks ago, I received a job description through a recruiter, and one sentence instantly caught my attention:
+A few weeks ago, I received a job description through a recruiter and one sentence instantly caught my attention:
 
 > Our app got built on spaghetti code, so need to be ok with that.
 
@@ -14,9 +14,9 @@ Yes, honesty is crucial on a job interview. It's even better to learn about thes
 1. They want to manage your expectations. Most developers hate to work with spaghetti code. The mess is the result of unmaintained code debt, frequent changes in product focus, developers coming and going and often tight deadlines.
 2. They are seeking individuals with extensive experience (or enough patience), as the readability of a spaghetti code is typically very low. It also comes with a lot of stress and creates the opportunity to introduce new bugs anytime, which in overall can easily lead to burnout.
 
-## How the approach a spaghetti code?
+## How the approach spaghetti code?
 
-First of all, let's call it by its proper name: **legacy code**. Obviously, anything you write today will become legacy code tomorrow, but from a codebase perspective, legacy refers to what we inherited and might not be comfortable to work with. It's usually difficult to see where the business logic begins and where does it end.
+First of all, let's call it by its proper name: **legacy code**. Obviously, anything you write today will become legacy code tomorrow, but from a codebase perspective, legacy refers to what we inherited and might not be comfortable to work with. It's usually difficult to see where the business logic begins and where it ends, which particularly affects confidence.
 
 Therefore, we need a plan to overcome of these challenges and make some preparations about how to tackle these issues. A proper plan should create enough room for improvement.
 
@@ -32,9 +32,9 @@ Once you have tests, you can begin with refactoring. Instead of randomly choosin
 
 “But how could I sell this to my manager? This would take ages, and time is money!” Familiar thoughts?
 
-Understanding the problem of legacy code and recognising it as part of the development process can be extremely difficult from a business perspective. It may seem like you’re not generating value and you’re just rewriting things that already work. But both of your manager and you are absolutely confident that they’re working properly?
+Understanding the problem of legacy code and recognising it as part of the development process can be extremely difficult from a business perspective. It may seem like you’re not generating value and you’re just rewriting things that already work. Do both you and your manager have complete confidence that they are working properly?
 
-If you’re tracking bugs in JIRA or any ticketing software you should be able to create a quick report on how many of them could be eliminated if you take the opportunity to rewrite the code from scratch instead of searching for methods to fix them. But which is really annoying that recreating bugs could take more time than fixing them.
+If you’re logging bugs in JIRA or any ticketing software you should be able to generate a report on these issues could be resolved by rewriting the code from scratch, rather than seeking ways to patch them. What's even more frustrating that sometimes you could spend considerably more time in reproducing bugs than actually fixing them.
 
 Let’s look another example: have you ever felt like there’s a ghost in the machine? Things happen, and you cannot explain where or why? Well, good news, now you have an argument. Inconsistency is an enemy of both developer and business. Now that both parties understand this, you can make a deal: start with small steps. Like allocate 10% of the main development time to maintenance, then slowly make it a habit and part of your software development cycle. The same argument applies for writing tests. Without tests, you can only assume that your code works, but you don’t have any written proof.
 
