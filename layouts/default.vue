@@ -10,17 +10,17 @@ useHead({
 
 useSeoMeta({
   ogTitle: 'Tamas Erdelyi - Senior Backend Engineer',
-  ogUrl: `${config.public.baseURL}`,
+  ogUrl: `${config.public.content.host}`,
   ogType: 'website',
   //ogDescription: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
-  ogImage: `${config.public.baseURL}/generic.png`,
+  ogImage: `${config.public.content.host}/generic.png`,
   twitterCard: 'summary_large_image',
-  twitterDomain: `${config.public.baseURL}`,
-  twitterUrl: `${config.public.baseURL}/`,
+  twitterDomain: `${config.public.content.host}`,
+  twitterUrl: `${config.public.content.host}/`,
   twitterCreator: '@terdelyi',
   twitterTitle: 'Tamas Erdelyi - Senior Backend Engineer',
   twitterDescription: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
-  twitterImage: `${config.public.baseURL}/generic.png`,
+  twitterImage: `${config.public.content.host}/generic.png`,
 })
 </script>
 

@@ -14,8 +14,8 @@ definePageMeta({
 });
 
 useSeoMeta({
-  //ogImage: `${config.public.baseURL}${route.path}.png`,
-  //image: `${config.public.baseURL}${route.path}.png`,
+  //ogImage: `${config.public.content.host}${route.path}.png`,
+  //image: `${config.public.content.host}${route.path}.png`,
   author: 'Tamas Erdelyi',
 })
 </script>
