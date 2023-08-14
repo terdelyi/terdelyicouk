@@ -19,6 +19,8 @@ export default defineNuxtConfig({
     },
     modules: [
         '@nuxt/content',
+        '@nuxt/image',
+        '@nuxtjs/color-mode',
     ],
     content: {
         watch: false,
@@ -32,6 +34,9 @@ export default defineNuxtConfig({
             anchorLinks: false,
             mdc: false,
         },
+    },
+    colorMode: {
+        classSuffix: ''
     },
     css: [
         '~/assets/sass/main.scss'

@@ -12,7 +12,7 @@ const menuActive = ref(false);
           </h1>
         </div>
         <div class="w-24 sm:w-32 -ml-4">
-          <img alt="Not Kevin Smith" src="/images/header-profile.png" />
+          <nuxt-img loading="lazy" alt="Not Kevin Smith" src="/images/header-profile.png" />
         </div>
       </div>
       <nav class="hidden sm:block md:pr-12">

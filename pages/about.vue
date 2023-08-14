@@ -35,7 +35,7 @@ useSeoMeta({
         which I still own till today, and began to deliver real projects for real companies.
       </p>
       <div class="mb-6 md:-mx-16">
-        <img src="/images/setup.jpg" class="object-cover mb-2 rounded-md shadow-md" alt="Various desktop setups between 2009 and 2020" />
+        <nuxt-img loading="lazy" src="/images/setup.jpg" class="object-cover mb-2 rounded-md shadow-md" alt="Various desktop setups between 2009 and 2020" />
         <div class="text-sm text-blue-300 dark:text-blue-200 text-center italic">Various desktop setups between 2009 and 2020</div>
       </div>
       <p>In 2009, I needed something more permanent. Years later, I grew tired of agency projects, so I quit
