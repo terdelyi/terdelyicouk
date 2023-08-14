@@ -54,7 +54,7 @@ useSeoMeta({
           </div>
         </div>
         <div class="hidden lg:block w-full lg:w-2/5">
-          <img class="w-full -mt-3" title="Not Kevin Smith" alt="Not Kevin Smith" src="/images/me.png" />
+          <nuxt-img loading="lazy" class="w-full -mt-3" title="Not Kevin Smith" alt="Not Kevin Smith" src="/images/me.png" />
         </div>
       </div>
   </main>

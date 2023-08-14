@@ -1,6 +1,6 @@
 ---
 title: "Don’t be OK with spaghetti code"
-description: "I received a job description where one sentence instantly caught my attention, inspiring me to share my thoughts about code debt and igniting a culture of code improvement."
+description: "I received a job description where one sentence instantly caught my attention. That inspired me to share my thoughts about code debt and igniting a culture of code improvement."
 date: "2023-08-10"
 tags: ['Testing', 'Clean Code']
 image: '/posts/dont-be-ok-with-spaghetti-code.png'
@@ -9,7 +9,7 @@ A few weeks ago, I received a job description through a recruiter and one senten
 
 > Our app got built on spaghetti code, so need to be ok with that.
 
-Yes, honesty is crucial on a job interview. It's even better to learn about these things before you apply for the job. From the top of my head, I could think of two reasons why this detail was highlighted:
+From the top of my head I could think of two reasons why this detail was highlighted:
 
 1. They want to manage your expectations. Most developers hate to work with spaghetti code. The mess is usually the result of unmaintained code debt, frequent changes in features, developers coming and going and deadlines are often tight.
 2. They are looking to hire people with extensive experience (or enough patience), as the readability of a spaghetti code is typically very low. That also comes with a lot of stress and creates the opportunity to introduce new bugs anytime, which in overall can easily lead to burnout.
@@ -25,7 +25,7 @@ Before touching any line of code, you need to have tests first. Not necessarily 
 Once you have tests, you can begin with refactoring. Instead of randomly choosing where to start, let your tests guide you. Think about the parts of your code where writing them were especially challenging - that’s your first task!
 
 <aside>
-💡 **Quick tip:** Chances are high that your code is indented. When writing tests, start from the outside and work your way inside. When refactoring, start from the inside and work your way out.
+💡 <strong>Quick tip:</strong> Chances are high that your code is indented. When writing tests, start from the outside and work your way inside. When refactoring, start from the inside and work your way out.
 </aside>
 
 ## The cost of refactoring
@@ -36,7 +36,7 @@ Understanding the problem of legacy code and recognising it as part of the devel
 
 If you’re logging bugs in JIRA or any ticketing software you should be able to generate a report on these issues could be resolved by rewriting the code from scratch, rather than seeking ways to patch them. What's even more frustrating is that sometimes you could spend considerably more time in reproducing bugs than actually fixing them.
 
-Let’s look at another example: have you ever felt like there’s a ghost in the machine? Things happen, and you cannot explain where or why? Well, good news, you might have an argument. Inconsistency is the enemy of both developer and business. When all parties understand this, you can make a deal: start with small steps. For an example allocate 10% of the main development time to maintenance, then slowly make it a habit and part of your software development process. The same argument applies for writing tests. Without tests, you can only assume that your code works, but you don’t have any written proof.
+Let’s look at another example: have you ever felt like there’s a ghost in the machine? Things happen, and you cannot explain where or why? Well, good news, you might have an argument. Inconsistency is the enemy of both developer and business. When all parties understand this, you can make a deal: **start with small steps**. For an example allocate 10% of the main development time to maintenance, then slowly make it a habit and part of your software development process. The same argument applies for writing tests. Without tests, you can only assume that your code works, but you don’t have any written proof.
 
 Sadly, this cycle is pretty much never-ending. You might think when finally everything is refactored you can sit back and relax. Of course, your application will continue to generate profit without any further modifications, and you may never need to add new features again. However, eventually, it will be old, obsolete and deprecated. As technology rapidly evolves, it’s gradually losing support from the language its written in. Or that third party code (aka dependency) you added to save time will be outdated without a replacement. Then your users will start looking for quicker and more efficient alternatives, and your business will start to lose money.
 
@@ -46,7 +46,7 @@ The break is temporary. It is good for the businesses to slow down a little, gen
 
 We can all agree that the level of transparency in that job description is remarkable, but emphasising the interest, moreover a potential decision for the change would be more important.
 
-You want to hire a developer to maintain your code, not just someone to deal with it.
+You want to hire a developer to **maintain your code, not just someone to deal with it**.
 
 With all that in mind let’s make a quick revision of the original sentence:
 
