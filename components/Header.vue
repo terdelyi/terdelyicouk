@@ -1,9 +1,15 @@
-<script setup>
+<script setup lang="ts">
 const menuActive = ref(false);
+const props = defineProps({
+  extreme: {
+    type: Boolean,
+    default: false,
+  },
+})
 </script>
 
 <template>
-  <header class="relative bg-blue-400 dark:bg-grey-800 text-grey-200 dark:text-grey-400">
+  <header :class="{ 'bg-blue-400': !extreme, 'bg-pink': extreme }" class="relative dark:bg-grey-800 text-grey-200 dark:text-grey-400">
     <div class="w-full md:max-w-screen-md flex items-center justify-between mx-auto">
       <div class="flex pl-4 md:pl-0 items-center">
         <div>

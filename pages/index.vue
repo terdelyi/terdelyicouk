@@ -1,8 +1,8 @@
-<script setup>
-const experience = new Date().getFullYear() - 2002;
+<script setup lang="ts">
+const { $experienceInYears } = useNuxtApp()
 const title = `I'm a Senior
   Backend Engineer`
-const subtitle = `with <span class="font-bold text-pink">${experience} years of full-stack experience</span>
+const subtitle = `with <span class="font-bold text-pink">${$experienceInYears} years of full-stack experience</span>
   based in Gloucestershire, United Kingdom`;
 const config = useRuntimeConfig()
 
@@ -10,7 +10,7 @@ definePageMeta({
   layout: false,
 });
 useSeoMeta({
-  description: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
+  description: `I'm is a Senior Backend Engineer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
   ogImage: `${config.public.content.host}/generic.png`
 })
 </script>

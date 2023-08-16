@@ -1,22 +1,19 @@
-<script setup>
-const formatDate = (dateString) => {
-  const date = new Date(dateString)
-  return new Intl.DateTimeFormat('default', {dateStyle: 'medium'}).format(date)
-}
-const formatTags = (tags) => {
-  return tags.join(', ')
-}
+<script setup lang="ts">
+const { $formatDate, $formatTags } = useNuxtApp()
 const config = useRuntimeConfig()
 const route = useRoute()
+const contentQuery = await queryContent(route.path).findOne()
 
 definePageMeta({
   layout: 'posts',
 });
 
 useSeoMeta({
-  //ogImage: `${config.public.content.host}${route.path}.png`,
-  //image: `${config.public.content.host}${route.path}.png`,
-  author: 'Tamas Erdelyi',
+  twitterCard: 'summary_large_image',
+  twitterCreator: '@terdelyi',
+  twitterTitle: contentQuery.title,
+  twitterDescription: contentQuery.description,
+  twitterImage: `${config.public.content.host}${contentQuery.image}`,
 })
 </script>
 
@@ -33,7 +30,7 @@ useSeoMeta({
         </div>
         <div class="text-grey-600 dark:text-grey-550 text-sm text-center mb-6">
           <div>
-            This post was published on {{ formatDate(doc.date) }} in {{ formatTags(doc.tags) }}
+            This post was published on {{ $formatDate(doc.date) }} in {{ $formatTags(doc.tags) }}
           </div>
         </div>
       </article>

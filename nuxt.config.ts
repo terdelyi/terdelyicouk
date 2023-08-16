@@ -31,7 +31,10 @@ export default defineNuxtConfig({
             }
         },
         markdown: {
-            anchorLinks: false,
+            anchorLinks: {
+                depth: 0,
+                exclude: [1, 2, 3, 4, 5, 6],
+            },
             mdc: false,
         },
     },
@@ -53,5 +56,8 @@ export default defineNuxtConfig({
                 host: 'localhost',
             },
         }
+    },
+    typescript: {
+        typeCheck: true,
     }
 })
