@@ -16,7 +16,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="relative h-screen flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
+  <main class="relative h-[calc(100dvh)] flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
     <div class="absolute top-6 right-6 text-grey-600 dark:text-grey-200">
       <DarkModeSwitch />
     </div>
