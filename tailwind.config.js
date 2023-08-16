@@ -38,5 +38,7 @@ module.exports = {
       'cyan-300': '#2481B6',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

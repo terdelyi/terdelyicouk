@@ -1,5 +1,5 @@
-<script setup>
-const experienceInYears = new Date().getFullYear() - 2002
+<script setup lang="ts">
+const { $experienceInYears } = useNuxtApp()
 
 useHead({
   title: 'About',
@@ -43,7 +43,7 @@ useSeoMeta({
         eventually won, and I lost my independence. Since 2013, I have been an employee. In the last decade,
         I have worked for small agencies and even large corporate machines.</p>
       <p>
-        I have been building websites and web applications for {{ experienceInYears }} years now. I started as a web designer,
+        I have been building websites and web applications for {{ $experienceInYears }} years now. I started as a web designer,
         but found myself more efficient in site-building, and eventually trained myself to become a proficient
         PHP developer. I find myself more satisfied with backend programming, but Tailwind and
         Vue drew my attention back to frontend for a bit. I met JAMstack, tried myself in mobile development

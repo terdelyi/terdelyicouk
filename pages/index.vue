@@ -1,8 +1,8 @@
-<script setup>
-const experience = new Date().getFullYear() - 2002;
+<script setup lang="ts">
+const { $experienceInYears } = useNuxtApp()
 const title = `I'm a Senior
   Backend Engineer`
-const subtitle = `with <span class="font-bold text-pink">${experience} years of full-stack experience</span>
+const subtitle = `with <span class="font-bold text-pink">${$experienceInYears} years of full-stack experience</span>
   based in Gloucestershire, United Kingdom`;
 const config = useRuntimeConfig()
 
@@ -10,13 +10,13 @@ definePageMeta({
   layout: false,
 });
 useSeoMeta({
-  description: `I'm is a Senior Backend Engineer with ${experience} years of full-stack experience based in Gloucestershire, United Kingdom`,
+  description: `I'm is a Senior Backend Engineer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
   ogImage: `${config.public.content.host}/generic.png`
 })
 </script>
 
 <template>
-  <main class="relative h-screen flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
+  <main class="relative h-[calc(100dvh)] flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
     <div class="absolute top-6 right-6 text-grey-600 dark:text-grey-200">
       <DarkModeSwitch />
     </div>

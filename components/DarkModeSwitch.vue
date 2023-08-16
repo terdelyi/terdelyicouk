@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const colorMode = useColorMode()
 const switchOn = () => {
   colorMode.preference = 'light'
