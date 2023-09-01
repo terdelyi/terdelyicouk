@@ -1,9 +1,9 @@
 ---
-title: "From user to engineer"
+title: "From novice to expert"
 description: "Learning programming can be hard – so hard that you might forget why you're doing it and stuck with the same tools and languages. This is the short story of how I overstepped that boundary."
 date: "2023-08-24"
 tags: ['Clean Code']
-image: '/posts/from-user-to-engineer.png'
+image: '/posts/from-novice-to-expert.png'
 ---
 It begins with being a user. You enjoy the experience, learn the rules, play and relax. Then, sometimes, it continues with curiosity—to be able to see behind the curtains, eager to modify the rules or create new ones.
 
@@ -19,6 +19,6 @@ Returning to my story, I realised I needed to specialise. I accepted that I coul
 
 In 2013, my unique skill set was PHP, although I learned it the hard way: fake it until you make it. But it made me fall in love with backend programming and introduced me to concepts like dependency injection and the repository pattern. With CodeIgniter, Laravel and Yii, I arrived in a perfect time to be witness of the language's resurrection. After introducing the PSRs, [the history of modern PHP](https://phptherightway.com) evolved rapidly — they even skipped PHP 6. Later, I was pushed to learn new things about frontend (jQuery, ES6, React, Vue), with detours in mobile and desktop application development, SaSS, microservices, CI/CD pipelines, serverless architecture, infrastructure as code, design patterns, SOLID, DRY, YAGNI, TDD, and BDD — so many things that my brain couldn't function anymore. Then, suddenly, things started making sense in a month, sometimes a year, and today I'm no longer addicted to Laravel, and I also seize every opportunity to try out languages other than PHP.
 
-What I’m trying to tell you through my story is that you must always remain open and hungry. Don’t stick to one framework or one language. Learn the basics, variables, loops, control structures, and data structures. Learn from the mistakes or journeys others have made: design patterns, software paradigms — programming is a flat circle, everything else are just SDKs and APIs to memorise. Read about algorithms, how to be more effective or improve performance. There’s nothing new, just better tools which are naturally faster, perhaps a bit shinier, but the foundations are always remain the same. Some are better suited for the task, while others are less. Invest enough time in learning everything about your task, inspect any inherited code, then make the best decision based on all the information you have.
+What I’m trying to tell you through my story is that you must always remain open and hungry. Don’t stick to one framework or one language. Learn the basics, variables, loops, control structures, and data structures. Learn from the mistakes or journeys others have made: design patterns, software paradigms — programming is a flat circle, everything else are just SDKs and APIs to memorise. Read about algorithms, how to be more effective or improve performance. There’s nothing new, just better tools which are naturally faster, perhaps a bit shinier, but the foundations are always remain the same. Some are better suited for the task, while others are less. Invest enough time in learning everything about your task, inspect any inherited code, then make the best decision about tools, architecture and approach based on all the information you have.
 
 Prioritise simplicity over complexity, focus on input and output, try, fail, and then try again. Once you've learned these things, you're no longer just a full stack, ninja or 10x developer. You're a software engineer armed with the right tools and mindset to do the best you can: *write software*.
