@@ -50,7 +50,7 @@ useSeoMeta({
             </ul>
           </div>
           <div class="px-8 md:px-0 lg:pr-20 text-lg font-light">
-            <div class="w-full md:w-4/5 lg:w-full mx-auto">Read about <NuxtLink to="/about" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">my journey</NuxtLink> or check the <NuxtLink to="/uses" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">stack I'm currently using</NuxtLink>. Sometimes, <NuxtLink to="/posts" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">I write about things</NuxtLink> I'm working on, and you can also <NuxtLink to="/contact" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">contact me</NuxtLink> if needed.</div>
+            <div class="w-full md:w-4/5 lg:w-full mx-auto tracking-tight">Read about <NuxtLink to="/about" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">my journey</NuxtLink> or check the <NuxtLink to="/uses" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">stack I'm currently using</NuxtLink>. Sometimes, <NuxtLink to="/posts" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">I write about things</NuxtLink> I'm working on, and you can also <NuxtLink to="/contact" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">contact me</NuxtLink> if needed.</div>
           </div>
         </div>
         <div class="hidden lg:block w-full lg:w-2/5">
