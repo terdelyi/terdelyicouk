@@ -1,5 +1,5 @@
 ---
-title: "From novice to expert"
+title: "A developer's journey: From novice to expert"
 description: "Learning programming can be hard – so hard that you might forget why you're doing it and stuck with the same tools and languages. This is the short story of how I overstepped that boundary."
 date: "2023-08-24"
 tags: ['Clean Code']
