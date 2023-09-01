@@ -21,6 +21,7 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@nuxt/image',
         '@nuxtjs/color-mode',
+        '@nuxtjs/google-fonts',
     ],
     content: {
         watch: false,
@@ -37,6 +38,11 @@ export default defineNuxtConfig({
             },
             mdc: false,
         },
+    },
+    googleFonts: {
+        families: {
+            Inter: [400, 600, 700, 800],
+        }
     },
     colorMode: {
         classSuffix: ''
