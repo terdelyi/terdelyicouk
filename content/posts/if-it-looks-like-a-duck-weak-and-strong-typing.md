@@ -1,6 +1,6 @@
 ---
 title: "If it looks like a duck and quacks like a duck it must be about typing"
-description: "The debate is ba about typing after a popular JavaScript framework removed TypeScript support from its codebase, meanwhile the decision is not just related to typing. Let's take a look why typing can be important, what is TypeScript and why we shouldn't dig a grave for Turbo just yet."
+description: "The debate is back about type systems after a popular JavaScript framework removed TypeScript support from its codebase. Let's take a look why typing can be important, what is TypeScript and why we shouldn't dig a grave for Turbo just yet."
 date: "2023-09-15"
 tags: ["Programming"]
 image: "/posts/if-it-looks-like-a-duck-weak-and-strong-typing.png"
