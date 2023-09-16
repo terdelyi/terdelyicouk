@@ -28,10 +28,10 @@ implementations like [htmx](https://htmx.org/) or [Inertia.js](https://inertiajs
 
 JavaScript was originally never intended to be a programming language, certainly not for large applications. It was born
 as LiveScript, a scripting language thanks to a collaboration between Netscape and Sun Microsystems to embed Java into
-Netscape Navigator in 1995. The reason for its later renaming was the similar syntax to Java. When the legendary browser
-wars began between Netscape and Microsoft, the latter reversed engineered Navigator's interpreter to create their own
-implementation and they named it JScript. A year later, Netscape submitted JavaScript to ECMA International, an
-organisation founded to standardise computer systems. The reason was to create a standard specification that all browser
+Netscape Navigator in 1995. That's also the reason for its later renaming, because it's syntax was similar to Java. When the legendary browser
+wars began between Netscape and Microsoft, the latter reverse-engineered Navigator's JS interpreter to create their own
+implementation which they named JScript. A year later, Netscape submitted JavaScript to ECMA International, an
+organisation founded to standardise computer systems. The intention was to create a standard specification that all browser
 vendors could adopt which led to the official release of the first [ECMAScript specification](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) in June 1997. JavaScript in
 the beginning was designed to only run small scripts as it didn't really have structuring concepts you would normally
 find in programming languages. That made it very difficult to build reliable large-scale applications.
@@ -39,27 +39,27 @@ find in programming languages. That made it very difficult to build reliable lar
 [TypeScript](https://www.typescriptlang.org/) is a programming language [built on the top of JavaScript](https://hanselminutes.com/340/what-is-typescript-and-why-with-anders-hejlsberg) (or as they sometimes mention a superset of
 JavaScript) introduced in 2012 by Microsoft, mainly to add static typing to JS through type annotations and enable type
 checking at compile time. It also introduced classes, generics, union types, enums, modules and namespaces which
-elevated JS applications to a different level. TypeScript is backward compatible with JavaScript and it can be compiled
-into regular JavaScript, which can be executed in any JS engine in various browsers or server-side runtime environments
+elevated JS applications to a different level. TypeScript is backward compatible with JavaScript, that can be compiled
+into regular JavaScript, which then can be executed in any browser's JS engine or server-side runtime environments
 like Node.js.
 
-You can love or hate TypeScript, but it's a fact that you cannot really find a job ad nowadays where the tech stack
-doesn't mention TypeScript in pair with server or client side programming.
+You might love or hate TypeScript, but it's a fact that you cannot really find a job ad nowadays where the tech stack
+doesn't mention TypeScript in pair with server or client side JavaScript programming.
 
 ## Weak typing vs. strong typing
 
 JavaScript itself is **weakly typed**, which means its type system is more permissive and allows for implicit type
 conversions and late type binding. Type violations might not be caught until runtime which may lead to unexpected
-runtime errors. Languages like PHP, Python, Ruby and Perl are all weakly typed.
+runtime errors. Languages like PHP, Ruby and Perl are all weakly typed.
 
 On the other hand, with **strong typing** every variable and expression has a fixed data type that is determined at
 compile-time. Type violations are caught at compile-time, which means that the code must stick strictly to the specified
-types, and any mismatch will result in a compilation error.
+types, and any mismatch will result in a compilation error. Examples for strongly typed languages are Java, C, Smalltalk or Pascal. Python however is both strongly and dynamically typed language.
 
-When type checking is performed at compile-time, it is called **static type checking**. Even weakly (loosely) typed languages can
-benefit from static typing by using different tools. For JavaScript this can be achieved using TypeScript with JSDoc
-type annotations. If you're working with PHP, you can implement the same with built-in type declarations, type hinting
-and PHPDoc annotations with using static analysis tools like PHPStan or Psalm which check your code without actually
+Type checking performed at compile-time called **static type checking**. Even weakly (loosely) typed languages can
+benefit from static typing by using particular tools. For JavaScript this can be achieved using TypeScript with JSDoc
+type annotations. If you're working with PHP, you can implement the similar with *built-in type declarations, type hinting
+and PHPDoc annotations with using static analysis tools* like PHPStan or Psalm which check your code without actually
 running it.
 
 ```php
