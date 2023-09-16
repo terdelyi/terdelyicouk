@@ -14,7 +14,7 @@ useSeoMeta({
     <div class="mb-8">
       <form name="contact" method="POST" action="/contact/thanks" data-netlify="true" data-netlify-honeypot="bot-field" autocomplete="off">
         <input type="hidden" name="form-name" value="contact">
-        <div hidden>Don’t fill this out: <input name="bot-field" /></div>
+        <div hidden>Don't fill this out: <input name="bot-field" /></div>
         <div class="sm:flex mb-4">
           <div class="sm:w-1/2 sm:pr-4 mb-4 sm:mb-0">
             <div class="font-semibold dark:text-grey-400 mb-2 text-sm">Your name</div>
