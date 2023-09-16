@@ -88,7 +88,7 @@ class Car
 
 ```
 
-People who prefer weak typing usually highlight the *flexibility, faster development, and a better flow,* which was also
+People who prefer weak typing usually highlight the *flexibility, faster development, and [a better flow](https://martinfowler.com/bliki/DynamicTyping.html),* which was also
 one of the arguments that DHH came up with in his post. Others favour *catching bugs early, ensuring safety, reliability,
 as well benefiting from additional type information in the code and better IDE support*.
 
