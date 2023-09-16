@@ -62,7 +62,7 @@ type annotations. If you're working with PHP, you can implement the same with bu
 and PHPDoc annotations with using static analysis tools like PHPStan or Psalm which check your code without actually
 running it.
 
-```
+```php
 <?php
 
 declare(strict_types=1);
