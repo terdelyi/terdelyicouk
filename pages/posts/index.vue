@@ -6,7 +6,7 @@ useHead({
   title: 'Posts',
 })
 useSeoMeta({
-  description: 'Sometimes I write about the stuff I\'m working on or thought about IT',
+  description: 'Sometimes I write about the stuff I\'m working on or share my thoughts about coding',
 })
 </script>
 

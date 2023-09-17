@@ -13,7 +13,7 @@ often a tediously long procedure. You can always find shortcuts, practice throug
 toughest, most nonsensical parts, you cannot predict when things will click. But eventually, they will.
 
 My journey began with a national program that brought free broadband connectivity to high schools in Hungary. I was so
-much mesmerised by the information highway that on some days, I just couldn’t go home after my classes. I spent
+much mesmerised by the information highway that on some days, I just couldn't go home after my classes. I spent
 afternoons  in a lonely basement where we ran the school's web server on an i486, building websites or simply chatting
 with unknown  people from around the world. In 1998, I stepped into the era of Netscape Navigator, Hotmail, and various
 Telnet applications. I started with HTML, and later, someone showed me how to capture and process POST requests using
@@ -46,11 +46,11 @@ code, design patterns, SOLID, DRY, YAGNI, TDD, and BDD—so many things that my 
 started making sense within a month, while others took a year more to click. Today I'm no longer addicted to Laravel,
 and I seize every opportunity to try out languages other than PHP.
 
-What I’m trying to tell you through my story is that **you must always remain open and hungry**. Don’t stick to one
+What I'm trying to tell you through my story is that **you must always remain open and hungry**. Don't stick to one
 framework or one language. Learn *the basics*, variables, loops, control structures, and data structures. Learn from the
 *mistakes* or journeys others have made: design patterns, software paradigms—programming is a flat circle, everything
 else are just SDKs and APIs to memorise. Read about *algorithms*, how to be more effective or improve performance.
-There’s nothing new under the sun, just better tools which are naturally faster, perhaps a bit shinier, but the
+There's nothing new under the sun, just better tools which are naturally faster, perhaps a bit shinier, but the
 foundations are always remain the same. Some are better suited for the task, while others are less. Invest enough time
 in learning everything about your task, inspect any inherited code, then make the best decision about tools,
 architecture and approach based on all the information you have.
