@@ -7,15 +7,15 @@ image: "/posts/if-it-looks-like-a-duck-weak-and-strong-typing.png"
 ---
 
 David Heinemeier Hansson (aka DHH), creator of Ruby on Rails and founder of
-37signals [recently announced](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01) he's removing
-TypeScript from Turbo starting from version 8. Turbo is a JavaScript framework to create progressively enhanced web
-applications without actually writing JS–which isn't really true as you are still using a JS based API.
+37signals [recently announced](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01), he's removing
+TypeScript from [Turbo](https://turbo.hotwire.dev/) starting from version 8 which has made him the target of constant
+mocking regarding typing and software reliability.
 
-The way Turbo achieves this is by capturing all link clicks and form submissions, changes all to AJAX requests and then
-extracting the body from the response to replace corresponding parts of the existing page, all without affecting the
-head tag or requiring a full page reload. Behind the scenes, it also manages the browser's back button functionality by
-caching the history of full body contents.Additionally, Turbo also supports requesting and fetching updates through
-WebSocket.
+Turbo is a JavaScript framework to create progressively enhanced web applications. The way it achieves this is by
+capturing all link clicks and form submissions, changes all to AJAX requests and then extracting the `body` from the
+response to replace corresponding parts of the existing page, all without affecting the `head` tag or requiring a full
+page reload. Behind the scenes, it also manages the browser's back button functionality by caching the history of full
+body contents. Additionally, Turbo also supports requesting and fetching updates through WebSocket.
 
 Turbo is the heart of the [Hotwire framework](https://hotwired.dev/) which contains a couple other frameworks like
 Stimulus and Strada to build
@@ -77,15 +77,15 @@ class Car implements Vehicle {
 
 You might love or hate TypeScript, but it's a fact that you cannot really find a job nowadays where the tech stack
 doesn't require TypeScript in pair with JavaScript weather it's server or client side programming. It's a de facto
-standard.
+standard. However, JavaScript evolved a lot since 2012, nowadays 
 
 ## Strong or weak vs. dynamic or static
 
 Type safety is a feature of a programming language which simply means the language only allows you to perform operations
 allowed by a data type. For an example you shouldn't use a method which requires a string on a numeric value. This
 permission is checked during type checking which can be static and dynamic. Dynamically (or weakly) typed languages
-check the types during runtime, meanwhile statically (or strong) typed does the same through compile time. Not all
-languages are need to be compiled before runtime (like PHP, Ruby or Python), those are called interpreted languages.
+check the types during runtime, meanwhile statically (or strong) typed does the same through usually compile time. Not
+all languages are need to be compiled before runtime (like PHP, Ruby or Python), those are called interpreted languages.
 
 JavaScript itself is **weakly typed**, which means its type system is more permissive and allows for implicit type
 conversions and late type binding. Type violations might not be caught until runtime which may lead to unexpected
@@ -132,7 +132,12 @@ class Car implements VehicleInterface
 
 ```
 
-People who prefer dynamically typing usually highlight the *flexibility, faster development, and
+**Duck typing** is a method of type checking that looks at the structure (properties and methods) and the functional
+aspect of the object rather than its name or class. If it walks like a duck and talks like a duck, we treat it like a
+duck, even if it's not. It is often mentioned as an alternative for strict typing by making our code more flexible and
+reusable.
+
+People who prefer dynamically typing generally highlight the *flexibility, faster development, and
 [a better flow](https://martinfowler.com/bliki/DynamicTyping.html),* which were also the same arguments that DHH came
 up with in his post. Others favour *catching bugs early, ensuring safety, reliability, as well benefiting from
 additional type information in the code and better IDE support*, even if compiling is a slower process or strict typing
@@ -143,5 +148,5 @@ affect readability.
 
 Personally, I believe there isn't a good or bad choice here. **Like many aspects of software engineering, it's about
 trade-offs.** Whenever it's possible I always enforce strict typing in PHP and use static analysis as part of
-continuous integration, because it helps me recognise what the code expect and what's going to be the outcome. However,
-I also appreciate that PHP is dynamically typed language.
+continuous integration, because it helps me recognise what the code accept and what's expected to be the outcome.
+However, I also appreciate that PHP is dynamically typed language.
