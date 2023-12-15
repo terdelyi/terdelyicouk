@@ -11,7 +11,7 @@ definePageMeta({
 });
 useSeoMeta({
   description: `I'm is a Software Developer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
-  ogImage: `${config.public.content.host}/generic.png`
+  ogImage: `${config.public.content.host}/images/generic.png`
 })
 </script>
 

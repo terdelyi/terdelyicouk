@@ -13,12 +13,12 @@ useSeoMeta({
   ogUrl: `${config.public.content.host}`,
   ogType: 'website',
   ogDescription: `I'm is a Senior Backend Engineer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
-  ogImage: `${config.public.content.host}/generic.png`,
+  ogImage: `${config.public.content.host}/images/generic.png`,
   twitterCard: 'summary_large_image',
   twitterCreator: '@terdelyi',
   twitterTitle: 'Tamas Erdelyi - Senior Backend Engineer',
   twitterDescription: `I'm is a Senior Backend Engineer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
-  twitterImage: `${config.public.content.host}/generic.png`,
+  twitterImage: `${config.public.content.host}/images/generic.png`,
 })
 </script>
 
