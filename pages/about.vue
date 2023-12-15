@@ -51,9 +51,9 @@ useSeoMeta({
       </p>
       <p>I was born and raised in Budapest, Hungary, but I moved to England in 2017 and restarted
         climbing the career ladder from the bottom. In just five years, I have achieved all the goals
-        I have ever imagined in my career. Currently, I'm a Software Engineer at property lending and investing platform in London.</p>
+        I have ever imagined in my career.</p>
       <p>Although I've worked mainly in web development in the past two decades, I consider myself an open-minded
-        software engineer, eager to learn and explore everything that advances my experience and keeps my
+        software developer, eager to learn and explore everything that advances my experience and keeps my
         brain engaged. I've been working from home fully since COVID-19, but I'm always happy to pop in an office,
         jump in a meetup or spend the day in a co-working space.</p>
       <p>In my free time, I'm just a geek dad in his early 40s who also collects records and love to spend

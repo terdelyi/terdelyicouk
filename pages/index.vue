@@ -1,16 +1,16 @@
 <script setup lang="ts">
 const { $experienceInYears } = useNuxtApp()
-const title = `I'm a Senior
-  Backend Engineer`
+const title = `I'm a Software
+Developer`
 const subtitle = `with <span class="font-bold text-pink">${$experienceInYears} years of full-stack experience</span>
-  based in Gloucestershire, United Kingdom`;
+based in Gloucestershire, United Kingdom`;
 const config = useRuntimeConfig()
 
 definePageMeta({
   layout: false,
 });
 useSeoMeta({
-  description: `I'm is a Senior Backend Engineer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
+  description: `I'm is a Software Developer with ${$experienceInYears} years of full-stack experience based in Gloucestershire, United Kingdom`,
   ogImage: `${config.public.content.host}/generic.png`
 })
 </script>
@@ -22,7 +22,7 @@ useSeoMeta({
     </div>
     <div class="w-full sm:max-w-screen-lg lg:py-0 m-auto flex items-center text-center lg:text-left">
         <div class="w-full lg:w-3/5 mb-0">
-          <div class="mb-4 text-xl md:text-lg leading-relaxed">Hi, my name is Tamas 👋</div>
+          <div class="mb-4 text-xl md:text-lg leading-relaxed">Hey, my name is Tamas 👋</div>
           <div class="whitespace-pre-line mb-2 px-4 sm:px-0 whitespace-pre-line text-5xl tracking-tight text-blue-600 dark:text-grey-400 font-extrabold" v-html="title"></div>
           <div class="sm:whitespace-pre-line mb-10 sm:mb-0 px-10 sm:px-0 text-blue-600 dark:text-grey-400 text-2xl/7 tracking-tight" v-html="subtitle"></div>
           <div class="my-6 mb-12">
@@ -50,7 +50,7 @@ useSeoMeta({
             </ul>
           </div>
           <div class="px-8 md:px-0 lg:pr-20 text-lg font-light">
-            <div class="w-full md:w-4/5 lg:w-full mx-auto tracking-tight">Read about <NuxtLink to="/about" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">my journey</NuxtLink> or check the <NuxtLink to="/uses" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">stack I'm currently using</NuxtLink>. Sometimes, <NuxtLink to="/posts" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">I write about things</NuxtLink> I'm working on, and you can also <NuxtLink to="/contact" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">contact me</NuxtLink> if needed.</div>
+            <div class="w-full md:w-4/5 lg:w-full mx-auto tracking-tight">Read about <NuxtLink to="/about" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">my first steps</NuxtLink> or check the <NuxtLink to="/uses" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">stack I'm currently using</NuxtLink>. Sometimes, <NuxtLink to="/posts" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">I write about things</NuxtLink> I'm working on, and you can also <NuxtLink to="/contact" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">contact me</NuxtLink> if needed.</div>
           </div>
         </div>
         <div class="hidden lg:block w-full lg:w-2/5">
