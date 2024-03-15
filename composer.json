@@ -1,0 +1,22 @@
+{
+  "name": "terdelyi/website",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Tamas Erdelyi",
+      "homepage": "https://terdelyi.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "terdelyi/phanstatic": "dev-dev"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../phanstatic"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
