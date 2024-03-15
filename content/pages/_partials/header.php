@@ -10,6 +10,7 @@ $image = $page->image ?? 'images/generic.png';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="I'm is a Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, United Kingdom">
     <meta property="og:image" content="<?php echo asset($image); ?>">
+    <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <div class="flex flex-col h-screen justify-between">

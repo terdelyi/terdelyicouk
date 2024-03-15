@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="I'm is a Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, United Kingdom">
     <meta property="og:image" content="<?php echo asset('images/generic.png'); ?>">
+    <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <main class="relative h-[calc(100dvh)] flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
@@ -58,6 +59,5 @@
             </div>
         </div>
     </main>
-    <script src="<?php echo asset('js/site.js'); ?>"></script>
 </body>
 </html>

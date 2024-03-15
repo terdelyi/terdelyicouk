@@ -75,7 +75,7 @@
                 <div>
                     <h4>PHPStorm</h4>
                     <p>The best IDE for PHP and web development: it has a client for everything from Git conflicts through Docker and databases. I'm
-                        intentionally <a href="https://stitcher.io/blog/why-light-themes-are-better-according-to-science">using it with a light theme.
+                        intentionally <a href="https://stitcher.io/blog/why-light-themes-are-better-according-to-science">using it with a light theme</a>.
                     </p>
                 </div>
             </div>
