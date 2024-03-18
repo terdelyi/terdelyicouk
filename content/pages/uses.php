@@ -1,4 +1,4 @@
-<?php include '_partials/header.php'; ?>
+<?php include 'content/pages/_partials/header.php'; ?>
 
 <article class="px-0">
     <h1>My tech stack and additional gadgets</h1>
@@ -132,4 +132,4 @@
     </div>
 </article>
 
-<?php include '_partials/footer.php'; ?>
+<?php include 'content/pages/_partials/footer.php'; ?>

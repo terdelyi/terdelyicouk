@@ -5,7 +5,6 @@ date: "2023-09-15"
 tags: ["Programming"]
 image: "/posts/if-it-looks-like-a-duck-weak-and-strong-typing.png"
 ---
-
 David Heinemeier Hansson (aka DHH), creator of Ruby on Rails and founder of
 37signals [recently announced](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01), he's removing
 TypeScript from [Turbo](https://turbo.hotwire.dev/) starting from version 8, which has made him the target of never-ending

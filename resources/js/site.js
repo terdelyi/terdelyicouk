@@ -19,3 +19,11 @@ hljs.registerLanguage('csharp', csharp);
 hljs.registerLanguage('bash', bash);
 
 hljs.highlightAll();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleSwitch = document.getElementById('toggle-switch');
+
+    toggleSwitch.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+    })
+})

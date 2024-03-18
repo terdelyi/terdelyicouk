@@ -1,4 +1,4 @@
-<?php include_partial('header.php', ['page' => $page]); ?>
+<?php include 'content/pages/_partials/header.php'; ?>
 
     <article>
         <h1><?php echo $page->title; ?></h1>
@@ -7,9 +7,9 @@
         </div>
         <div class="text-grey-600 dark:text-grey-550 text-sm text-center mb-6">
             <div>
-                This post was published on <?php echo $page->date; ?> in <?php echo implode(', ', $page->tags); ?>
+                This post was published on <?php echo date_format(new DateTime($page->date), 'd M Y'); ?> in <?php echo implode(', ', $page->tags); ?>
             </div>
         </div>
     </article>
 
-<?php include_partial('footer.php', ['page' => $page]); ?>
+<?php include 'content/pages/_partials/footer.php'; ?>

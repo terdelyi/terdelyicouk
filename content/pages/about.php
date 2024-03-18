@@ -1,4 +1,4 @@
-<?php include '_partials/header.php'; ?>
+<?php include 'content/pages/_partials/header.php'; ?>
 
 <article class="max-w-screen-md">
         <h1>About</h1>
@@ -52,4 +52,4 @@
         </div>
     </article>
 
-<?php include '_partials/footer.php'; ?>
+<?php include 'content/pages/_partials/footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php include '_partials/header.php'; ?>
+<?php include 'content/pages/_partials/header.php'; ?>
 
     <article>
         <h1>Let's talk!</h1>
@@ -28,4 +28,4 @@
         </div>
     </article>
 
-<?php include '_partials/footer.php'; ?>
+<?php include 'content/pages/_partials/footer.php'; ?>

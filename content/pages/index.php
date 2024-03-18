@@ -10,6 +10,9 @@
     <meta name="description" content="I'm is a Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, United Kingdom">
     <meta property="og:image" content="<?php echo asset('images/generic.png'); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <main class="relative h-[calc(100dvh)] flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
@@ -50,12 +53,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="px-8 md:px-0 lg:pr-20 text-xl font-light leading-relaxed">
+                <div class="px-8 md:px-0 lg:pr-20 text-lg font-light">
                     <div class="w-full md:w-4/5 lg:w-full mx-auto tracking-tight">Read about <a href="/about" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">my first steps</a> or check the <a href="/uses" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">stack I'm currently using</a>. Sometimes, <a href="/posts" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">I write about things</a> I'm working on, and you can also <a href="/contact" class="font-bold text-pink hover:text-blue-600 hover:dark:text-grey-400 underline">contact me</a> if needed.</div>
                 </div>
             </div>
             <div class="hidden lg:block w-full lg:w-2/5">
-                <img class="w-full -mt-3 drop-shadow" title="Not Kevin Smith" alt="Not Kevin Smith" src="assets/images/me.png" />
+                <img class="w-full -mt-3 drop-shadow" title="Not Kevin Smith" alt="Not Kevin Smith" src="<?php echo asset('images/me.png'); ?>" />
             </div>
         </div>
     </main>

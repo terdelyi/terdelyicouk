@@ -1,4 +1,4 @@
-<?php include_partial('header.php', ['page' => $page]); ?>
+<?php include 'content/pages/_partials/header.php'; ?>
 
 <?php foreach ($collection->items() as $item) : ?>
     <article class="mb-10">
@@ -16,4 +16,4 @@
     <?php endif; ?>
 <?php endif; ?>
 
-<?php include_partial('footer.php', ['page' => $page]); ?>
+<?php include 'content/pages/_partials/footer.php'; ?>

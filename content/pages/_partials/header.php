@@ -11,6 +11,9 @@ $image = $page->image ?? 'images/generic.png';
     <meta name="description" content="I'm is a Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, United Kingdom">
     <meta property="og:image" content="<?php echo asset($image); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <div class="flex flex-col h-screen justify-between">
@@ -55,8 +58,10 @@ $image = $page->image ?? 'images/generic.png';
                     <li class="pb-1"><a href="/contact/" class="hover:underline<?php if ($page->is('/contact/')) :?> font-bold text-grey-100<?php endif; ?>">Contact</a></li>
                 </ul>
             </div>
-            <div class="absolute top-3 sm:top-5 right-14 sm:right-6  hover:text-white">
-
+            <div class="absolute top-3 sm:top-5 right-14 sm:right-6 hover:text-white">
+                <a href="#" id="toggle-switch" title="Toggle theme between light and dark" aria-label="Toggle theme between light and dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </a>
             </div>
         </header>
         <main class="mb-auto px-4 sm:px-0 container-md pt-5 sm:pt-10 pb-2 sm:pb-4">
