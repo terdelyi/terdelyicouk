@@ -1,4 +1,4 @@
-<?php include 'content/pages/partials/header.php'; ?>
+<?php include 'content/pages/_partials/header.php'; ?>
 
     <article>
         <h1>Thank you for your message!</h1>
