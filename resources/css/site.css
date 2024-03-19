@@ -51,7 +51,7 @@ article p code {
 }
 
 article ul {
-    @apply list-image-[url('../images/check.png')] dark:list-image-[url('../images/check-dark.png')] -ml-1 mb-6 leading-relaxed;
+    @apply list-image-[url('/content/assets/images/check.png')] dark:list-image-[url('/content/assets/images/check-dark.png')] -ml-1 mb-6 leading-relaxed;
 }
 
 article ul li {

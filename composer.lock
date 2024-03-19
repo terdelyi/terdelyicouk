@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b78b1cd3408e2a267014612dc15d7e9",
+    "content-hash": "f9ac52a83bc38603a38d3969a34f61e1",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -1508,16 +1508,16 @@
         },
         {
             "name": "terdelyi/phanstatic",
-            "version": "dev-main",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/terdelyi/phanstatic.git",
-                "reference": "ba2badf948316f4beb742d0d1d878c8ed6b7b037"
+                "reference": "006c608f7ae3bc1c2c10d83430e76e7e66cea6e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terdelyi/phanstatic/zipball/ba2badf948316f4beb742d0d1d878c8ed6b7b037",
-                "reference": "ba2badf948316f4beb742d0d1d878c8ed6b7b037",
+                "url": "https://api.github.com/repos/terdelyi/phanstatic/zipball/006c608f7ae3bc1c2c10d83430e76e7e66cea6e3",
+                "reference": "006c608f7ae3bc1c2c10d83430e76e7e66cea6e3",
                 "shasum": ""
             },
             "require": {
@@ -1533,9 +1533,8 @@
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "mockery/mockery": "^1.6",
                 "phpstan/phpstan": "^1.10",
-                "phpunit/phpunit": "^10.5"
+                "phpunit/phpunit": "^11.0"
             },
-            "default-branch": true,
             "bin": [
                 "bin/phanstatic"
             ],
@@ -1560,9 +1559,9 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/terdelyi/phanstatic/tree/main"
+                "source": "https://github.com/terdelyi/phanstatic/tree/develop"
             },
-            "time": "2024-03-18T17:38:37+00:00"
+            "time": "2024-03-19T15:18:38+00:00"
         }
     ],
     "packages-dev": [],

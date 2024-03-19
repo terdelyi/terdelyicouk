@@ -1,6 +1,5 @@
 const path = require('path');
 const isProduction = process.env.NODE_ENV === 'production';
-const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const config = {
@@ -12,18 +11,17 @@ const config = {
     plugins: [
         new MiniCssExtractPlugin({
             filename: '../css/site.css',
-        }),
-        new CopyPlugin({
-            patterns: [
-                { from: 'resources/images', to: path.resolve(__dirname, 'dist/assets/images') },
-            ],
-        }),
+        })
     ],
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/inline',
             },
             {
                 test: /\.js$/,

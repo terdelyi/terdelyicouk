@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": ">=8.2",
-    "terdelyi/phanstatic": "dev-main"
+    "terdelyi/phanstatic": "dev-develop"
   },
   "repositories": [
     {
