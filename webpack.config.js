@@ -3,10 +3,13 @@ const isProduction = process.env.NODE_ENV === 'production';
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const config = {
-    entry: './resources/js/site.js',
+    entry: {
+        site: './resources/js/site.js',
+        toggle: './resources/js/toggle.js'
+    },
     output: {
         path: path.resolve(__dirname, 'dist/assets/js'),
-        filename: 'site.js',
+        filename: '[name].js',
     },
     plugins: [
         new MiniCssExtractPlugin({

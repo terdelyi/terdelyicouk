@@ -10,6 +10,7 @@ $image = $page->image ?? 'images/generic.png';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="I'm is a Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, United Kingdom">
     <meta property="og:image" content="<?php echo asset($image); ?>">
+    <link rel="icon" type="image/x-icon" href="<?php echo asset('favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,19 +39,19 @@ $image = $page->image ?? 'images/generic.png';
                     </ul>
                 </nav>
                 <div class="flex sm:hidden mr-4">
-                    <button v-on:click="menuActive = true" v-if="!menuActive" class="button">
+                    <button id="mobile-menu-show" class="button">
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
-                    <button v-on:click="menuActive = false" v-if="menuActive" class="button">
+                    <button id="mobile-menu-hide" class="button hidden">
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </button>
                 </div>
             </div>
-            <div v-if="menuActive" class="max-w-screen-md flex sm:hidden px-4 md:px-0 py-2 mx-auto bg-blue-700 dark:bg-grey-750">
+            <div id="mobile-menu" class="max-w-screen-md flex sm:hidden px-4 md:px-0 py-2 mx-auto bg-blue-700 dark:bg-grey-750 hidden">
                 <ul>
                     <li class="pb-1"><a href="/about/" class="hover:underline<?php if ($page->is('/about/')) :?> font-bold text-grey-100<?php endif; ?>">About</a></li>
                     <li class="pb-1"><a href="/posts/" class="hover:underline<?php if ($page->is('/posts/')) :?> font-bold text-grey-100<?php endif; ?>">Posts</a></li>
@@ -60,7 +61,8 @@ $image = $page->image ?? 'images/generic.png';
             </div>
             <div class="absolute top-3 sm:top-5 right-14 sm:right-6 hover:text-white">
                 <a href="#" id="toggle-switch" title="Toggle theme between light and dark" aria-label="Toggle theme between light and dark">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-switch-off" class="w-5 feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-switch-on" class="hidden w-5 feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                 </a>
             </div>
         </header>

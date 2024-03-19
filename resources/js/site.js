@@ -9,6 +9,7 @@ import xml from 'highlight.js/lib/languages/xml';
 import php from 'highlight.js/lib/languages/php';
 import csharp from 'highlight.js/lib/languages/csharp';
 import bash from 'highlight.js/lib/languages/bash';
+import './toggle.js';
 
 hljs.registerLanguage('javascript', javascript);
 hljs.registerLanguage('typescript', typescript);
@@ -21,9 +22,19 @@ hljs.registerLanguage('bash', bash);
 hljs.highlightAll();
 
 document.addEventListener('DOMContentLoaded', () => {
-    const toggleSwitch = document.getElementById('toggle-switch');
+    const mobileMenuShow = document.getElementById('mobile-menu-show');
+    const mobileMenuHide = document.getElementById('mobile-menu-hide');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-    toggleSwitch.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark');
+    mobileMenuShow.addEventListener('click', () => {
+        mobileMenuShow.classList.toggle('hidden');
+        mobileMenuHide.classList.toggle('hidden');
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenuHide.addEventListener('click', () => {
+        mobileMenuHide.classList.toggle('hidden');
+        mobileMenuShow.classList.toggle('hidden');
+        mobileMenu.classList.toggle('hidden');
     })
 })
