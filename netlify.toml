@@ -1,9 +1,3 @@
 [build]
-  publish = 'dist'
-  command = 'npm run generate'
-
-[[redirects]]
-  from = "/notes"
-  to = "/posts"
-  status = 301
-  force = true
+  command = "npm run build"
+  publish = "dist"
