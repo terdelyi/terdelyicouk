@@ -9,7 +9,8 @@ import xml from 'highlight.js/lib/languages/xml';
 import php from 'highlight.js/lib/languages/php';
 import csharp from 'highlight.js/lib/languages/csharp';
 import bash from 'highlight.js/lib/languages/bash';
-import './toggle.js';
+import MobileMenu from "./modules/MobileMenu";
+import ToggleSwitch from "./modules/ToggleSwitch";
 
 hljs.registerLanguage('javascript', javascript);
 hljs.registerLanguage('typescript', typescript);
@@ -22,19 +23,10 @@ hljs.registerLanguage('bash', bash);
 hljs.highlightAll();
 
 document.addEventListener('DOMContentLoaded', () => {
-    const mobileMenuShow = document.getElementById('mobile-menu-show');
-    const mobileMenuHide = document.getElementById('mobile-menu-hide');
-    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenu = new MobileMenu(document.getElementById('mobile-menu'));
+    document.getElementById('mobile-menu-show').addEventListener('click', (event) => mobileMenu.toggle(event.currentTarget, document.getElementById('mobile-menu-hide')));
+    document.getElementById('mobile-menu-hide').addEventListener('click', (event) => mobileMenu.toggle(event.currentTarget, document.getElementById('mobile-menu-show')));
 
-    mobileMenuShow.addEventListener('click', () => {
-        mobileMenuShow.classList.toggle('hidden');
-        mobileMenuHide.classList.toggle('hidden');
-        mobileMenu.classList.toggle('hidden');
-    });
-
-    mobileMenuHide.addEventListener('click', () => {
-        mobileMenuHide.classList.toggle('hidden');
-        mobileMenuShow.classList.toggle('hidden');
-        mobileMenu.classList.toggle('hidden');
-    })
-})
+    const toggleSwitch = new ToggleSwitch(document.getElementById('toggle-switch-on'), document.getElementById('toggle-switch-off'));
+    document.getElementById('toggle-switch').addEventListener('click', () => toggleSwitch.toggle());
+});

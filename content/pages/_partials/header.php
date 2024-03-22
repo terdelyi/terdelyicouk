@@ -12,9 +12,11 @@ $image = $page->image ?? 'images/generic.png';
     <meta property="og:image" content="<?php echo asset($image); ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo asset('favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
+    <link rel="stylesheet" title="Light theme" href="<?php echo asset('css/github.css'); ?>">
+    <link rel="stylesheet" title="Dark theme" href="<?php echo asset('css/github-dark.css'); ?>" disabled="disabled">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800" rel="stylesheet">
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <div class="flex flex-col h-screen justify-between">
@@ -30,7 +32,7 @@ $image = $page->image ?? 'images/generic.png';
                         <img alt="Not Kevin Smith" src="<?php echo asset('images/header-profile.png'); ?>" />
                     </div>
                 </div>
-                <nav class="hidden sm:block md:pr-12">
+                <nav class="hidden sm:block pr-12 md:pr-0">
                     <ul class="px-4 md:px-0 text-sm md:text-base font-normal tracking-tight inline-flex">
                         <li><a href="/about/" class="px-4 sm:px-3 hover:underline<?php if ($page->is('/about/')) :?> font-bold<?php endif; ?>">About</a></li>
                         <li><a href="/posts/" class="px-4 sm:px-3 hover:underline<?php if ($page->is('/posts/')) :?> font-bold<?php endif; ?>">Posts</a></li>
@@ -51,7 +53,7 @@ $image = $page->image ?? 'images/generic.png';
                     </button>
                 </div>
             </div>
-            <div id="mobile-menu" class="max-w-screen-md flex sm:hidden px-4 md:px-0 py-2 mx-auto bg-blue-700 dark:bg-grey-750 hidden">
+            <div id="mobile-menu" class="max-w-screen-md sm:hidden px-4 md:px-0 py-2 mx-auto bg-blue-700 dark:bg-grey-750 hidden">
                 <ul>
                     <li class="pb-1"><a href="/about/" class="hover:underline<?php if ($page->is('/about/')) :?> font-bold text-grey-100<?php endif; ?>">About</a></li>
                     <li class="pb-1"><a href="/posts/" class="hover:underline<?php if ($page->is('/posts/')) :?> font-bold text-grey-100<?php endif; ?>">Posts</a></li>

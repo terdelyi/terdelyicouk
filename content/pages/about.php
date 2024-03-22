@@ -12,7 +12,7 @@
                 obvious from an early age. I was already deeply in love with movies, but computers seemed to be
                 my new passion.</p>
             <p>
-                I built my first PC mainly to <a src="https://soundcloud.com/terdelyi/love-declaration?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">write songs with Fast Tracker 2</a>,
+                I built my first PC mainly to <a href="https://soundcloud.com/terdelyi/love-declaration?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">write songs with Fast Tracker 2</a>,
                 but it also helped me to manage my massive VHS catalog when I was running a possibly illegal renting
                 business in small when I was 12 years old. Then I become a big fan of diskmags. I ripped apart their
                 codebase to see how they worked. I wrote some Basic programs by that time, but it was just a hobby. Over
@@ -24,7 +24,7 @@
                 with FrontPage Express, using the earliest versions of HTML and CSS. In my twenties, <a src="https://moziplussz.hu">I launched a movie website</a>
                 which I still own till today, and began to deliver real projects for real companies.
             </p>
-            <div class="mb-6 md:-mx-16">
+            <div class="mb-6">
                 <img src="<?php echo asset('images/setup.jpg'); ?>" class="object-cover mb-2 rounded-md shadow-md" alt="Various desktop setups between 2009 and 2020" />
                 <div class="text-sm text-blue-300 dark:text-blue-200 text-center italic">Various desktop setups between 2009 and 2020</div>
             </div>
