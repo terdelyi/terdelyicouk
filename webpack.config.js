@@ -1,11 +1,12 @@
 const path = require('path');
 const isProduction = process.env.NODE_ENV === 'production';
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = {
     entry: {
         site: './resources/js/site.js',
-        toggle: './resources/js/toggle.js'
+        front: './resources/js/front.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist/assets/js'),
@@ -14,7 +15,13 @@ const config = {
     plugins: [
         new MiniCssExtractPlugin({
             filename: '../css/site.css',
-        })
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                {from: 'highlight.js/styles/github.css', to: path.resolve(__dirname, 'dist/assets/css'), context: 'node_modules'},
+                {from: 'highlight.js/styles/github-dark.css', to: path.resolve(__dirname, 'dist/assets/css'), context: 'node_modules'}
+            ],
+        }),
     ],
     module: {
         rules: [

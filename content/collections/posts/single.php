@@ -2,7 +2,7 @@
 
     <article>
         <h1><?php echo $page->title; ?></h1>
-        <div class="has-content">
+        <div class="has-content mb-10">
             <?php echo $page->content; ?>
         </div>
         <div class="text-grey-600 dark:text-grey-550 text-sm text-center mb-6">

@@ -25,7 +25,7 @@ Before touching any line of code, you need to have tests first. Not necessarily 
 Once you have tests, you can begin with refactoring. Instead of randomly choosing where to start, let your tests guide you. Think about the parts of your code where writing them were especially challenging - that's your first task!
 
 <aside>
-💡 <strong>Quick tip:</strong> Chances are high that your code is indented. When writing tests, start from the outside and work your way inside. When refactoring, start from the inside and work your way out.
+<strong>Quick tip:</strong> Chances are high that your code is indented. When writing tests, start from the outside and work your way inside. When refactoring, start from the inside and work your way out.
 </aside>
 
 ## The cost of refactoring

@@ -32,10 +32,10 @@ module.exports = {
       'blue-600': '#0c47c2',
       'blue-700': '#1b275b',
       'cyan-100': '#6DAACC',
-      'cyan-300': '#2481B6',
+      'cyan-300': '#f5cd0b',
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
+    require('@tailwindcss/forms')
   ]
 }

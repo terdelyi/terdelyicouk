@@ -63,6 +63,6 @@
             </div>
         </div>
     </main>
-    <script src="<?php echo asset('js/toggle.js'); ?>"></script>
+    <script src="<?php echo asset('js/front.js'); ?>"></script>
 </body>
 </html>
