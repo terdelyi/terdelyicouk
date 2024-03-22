@@ -3,7 +3,7 @@
 return [
 
     'site' => [
-        'baseUrl' => getenv('DEPLOY_URL') ?: 'http://localhost:8000',
+        'baseUrl' => getenv('ENV') === 'production' ? getenv('URL') : getenv('DEPLOY_URL') ?? 'http://localhost:8000',
         'title' => 'Tamas Erdelyi',
     ],
 
