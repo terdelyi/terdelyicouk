@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff58d45da84138e9c96689c1896eb898",
+    "content-hash": "f9ac52a83bc38603a38d3969a34f61e1",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -1509,10 +1509,16 @@
         {
             "name": "terdelyi/phanstatic",
             "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/terdelyi/phanstatic.git",
+                "reference": "f9428f5fc9e79706de316825f4aa3909c730fc13"
+            },
             "dist": {
-                "type": "path",
-                "url": "../phanstatic",
-                "reference": "855198b1a8df86e09314ba4a24d56329cdb680ff"
+                "type": "zip",
+                "url": "https://api.github.com/repos/terdelyi/phanstatic/zipball/f9428f5fc9e79706de316825f4aa3909c730fc13",
+                "reference": "f9428f5fc9e79706de316825f4aa3909c730fc13",
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1569,9 +1575,10 @@
                     "homepage": "https://terdelyi.co.uk"
                 }
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/terdelyi/phanstatic/tree/develop"
+            },
+            "time": "2024-03-25T09:38:58+00:00"
         }
     ],
     "packages-dev": [],
