@@ -1,6 +1,6 @@
 # terdelyi.co.uk
 
-Hi, you're looking at the source code of my personal website. I'm a freelance software developer, specialized in
+Hi, you're looking at the source code of my personal website. I'm a freelance software developer, specialised in
 web-related services at [Web Developer For Hire](https://webdeveloperforhire.co.uk/). If you're looking for a
 contractor,  feel free to contact me.
 
