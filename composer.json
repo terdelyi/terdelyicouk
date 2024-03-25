@@ -13,8 +13,8 @@
   },
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/terdelyi/phanstatic.git"
+      "type": "path",
+      "url": "../phanstatic"
     }
   ],
   "minimum-stability": "dev",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9ac52a83bc38603a38d3969a34f61e1",
+    "content-hash": "ff58d45da84138e9c96689c1896eb898",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -1509,16 +1509,10 @@
         {
             "name": "terdelyi/phanstatic",
             "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/terdelyi/phanstatic.git",
-                "reference": "006c608f7ae3bc1c2c10d83430e76e7e66cea6e3"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/terdelyi/phanstatic/zipball/006c608f7ae3bc1c2c10d83430e76e7e66cea6e3",
-                "reference": "006c608f7ae3bc1c2c10d83430e76e7e66cea6e3",
-                "shasum": ""
+                "type": "path",
+                "url": "../phanstatic",
+                "reference": "855198b1a8df86e09314ba4a24d56329cdb680ff"
             },
             "require": {
                 "ext-json": "*",
@@ -1544,7 +1538,7 @@
                     "Terdelyi\\Phanstatic\\": "src/"
                 },
                 "files": [
-                    "src/helpers.php"
+                    "src/Support/helpers.php"
                 ]
             },
             "autoload-dev": {
@@ -1552,16 +1546,32 @@
                     "Tests\\": "tests/"
                 }
             },
+            "scripts": {
+                "check": [
+                    "php-cs-fixer check"
+                ],
+                "fix": [
+                    "php-cs-fixer fix"
+                ],
+                "static": [
+                    "phpstan analyse"
+                ],
+                "tests": [
+                    "phpunit tests/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Tamas Erdelyi",
                     "homepage": "https://terdelyi.co.uk"
                 }
             ],
-            "support": {
-                "source": "https://github.com/terdelyi/phanstatic/tree/develop"
-            },
-            "time": "2024-03-19T15:18:38+00:00"
+            "transport-options": {
+                "relative": true
+            }
         }
     ],
     "packages-dev": [],
