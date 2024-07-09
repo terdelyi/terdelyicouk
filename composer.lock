@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9ac52a83bc38603a38d3969a34f61e1",
+    "content-hash": "6b78b1cd3408e2a267014612dc15d7e9",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549"
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/f41715465d65213d644d3141a6a93081be5d3549",
-                "reference": "f41715465d65213d644d3141a6a93081be5d3549",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/a23a2bf4f31d3518f3ecb38660c95715dfead60f",
+                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f",
                 "shasum": ""
             },
             "require": {
@@ -77,9 +77,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
+                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
-            "time": "2022-10-27T11:44:00+00:00"
+            "time": "2024-07-08T12:26:09+00:00"
         },
         {
             "name": "league/commonmark",
@@ -1513,16 +1513,16 @@
         },
         {
             "name": "terdelyi/phanstatic",
-            "version": "dev-develop",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/terdelyi/phanstatic.git",
-                "reference": "347c602329aceb1408628e02536f05d481412b3d"
+                "reference": "4494b36ebaa38d961e45e563afded907e6da0298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/terdelyi/phanstatic/zipball/347c602329aceb1408628e02536f05d481412b3d",
-                "reference": "347c602329aceb1408628e02536f05d481412b3d",
+                "url": "https://api.github.com/repos/terdelyi/phanstatic/zipball/4494b36ebaa38d961e45e563afded907e6da0298",
+                "reference": "4494b36ebaa38d961e45e563afded907e6da0298",
                 "shasum": ""
             },
             "require": {
@@ -1540,6 +1540,7 @@
                 "phpstan/phpstan-mockery": "^1.1",
                 "phpunit/phpunit": "^11.0"
             },
+            "default-branch": true,
             "bin": [
                 "bin/phanstatic"
             ],
@@ -1582,9 +1583,9 @@
             ],
             "description": "A simple, lightweight and CLI based static site generator written in PHP",
             "support": {
-                "source": "https://github.com/terdelyi/phanstatic/tree/develop"
+                "source": "https://github.com/terdelyi/phanstatic/tree/main"
             },
-            "time": "2024-07-08T09:19:17+00:00"
+            "time": "2024-07-09T22:51:32+00:00"
         }
     ],
     "packages-dev": [],

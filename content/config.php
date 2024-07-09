@@ -8,7 +8,7 @@ if (getenv('ENV') === 'production') {
     $baseUrl = getenv('DEPLOY_URL') ? getenv('DEPLOY_URL') : 'http://localhost:8000';
 }
 
-return (new ConfigBuilder)
+return ConfigBuilder::make()
     ->setBaseUrl($baseUrl)
     ->setTitle('Tamas Erdelyi')
     ->addCollection(
