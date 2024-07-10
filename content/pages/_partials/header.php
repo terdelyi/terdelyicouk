@@ -17,6 +17,7 @@ $image = $page->image ?? 'images/generic.png';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800" rel="stylesheet">
+    <script src="https://cdn.usefathom.com/script.js" data-site="APGETVFU" defer></script>
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <div class="flex flex-col h-screen justify-between">

@@ -12,16 +12,14 @@ $image = $page->image ?? 'images/generic.png';
     <meta property="og:image" content="<?php echo asset($image); ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo asset('favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
-    <link rel="stylesheet" title="Light theme" href="<?php echo asset('css/github.css'); ?>">
-    <link rel="stylesheet" title="Dark theme" href="<?php echo asset('css/github-dark.css'); ?>" disabled="disabled">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800" rel="stylesheet">
+    <script src="https://cdn.usefathom.com/script.js" data-site="APGETVFU" defer></script>
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
 
 <div class="max-w-screen-sm mx-auto p-5 sm:p-10">
-
     <ul>
         <li class="mb-1"><a href="https://linkedin.com/in/terdelyi/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">LinkedIn</a></li>
         <li class="mb-1"><a href="https://x.com/terdelyi" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">X / Twitter</a></li>
@@ -30,7 +28,6 @@ $image = $page->image ?? 'images/generic.png';
         <li class="mb-1"><a href="https://webdeveloperforhire.co.uk" class="block bg-grey-700 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Web Developer for Hire</a></li>
         <li class="mt-4"><a href="https://terdelyi.co.uk" class="block text-center text-sm underline">&#8592; Back to the website</a></li>
     </ul>
-
 </div>
 
 </body>
