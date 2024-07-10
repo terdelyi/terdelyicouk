@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.usefathom.com/script.js" data-site="APGETVFU" defer></script>
 </head>
 <body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
     <main class="relative h-[calc(100dvh)] flex bg-gradient-to-b from-grey-100 to-grey-400 dark:from-grey-700 dark:to-grey-800">
