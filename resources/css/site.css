@@ -131,3 +131,12 @@ form button[type='submit'] {
 form button[type='submit']:hover {
     @apply bg-blue-600 dark:bg-grey-400 text-grey-200 dark:text-blue-700;
 }
+
+.formkit-form {
+    border: 0!important;
+    margin: 0 auto!important;
+}
+
+.formkit-form > div {
+    padding: 0!important;
+}

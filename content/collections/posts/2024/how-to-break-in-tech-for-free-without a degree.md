@@ -1,0 +1,32 @@
+---
+title: "How to break into tech for free without a degree"
+description: "PHP South West in Bristol hosted a valuable Q&A, offering insights into the changing dynamics of bootcamps in today’s job market. There is still value in learning coding today, despite the dominance of AI."
+date: "2024-09-12"
+tags: ["Jobs"]
+image: "/posts/search-for-title-or-meta-values-in-wordpress.png"
+---
+In September, at [PHP South West](https://www.meetup.com/php-sw/) in Bristol there was a very insightful and informative Q&A about bootcamps with Mike Oram from IO Academy. We’ve probably all heard about bootcamps, which help you learn new skills at a fast pace, especially when you’re looking to change careers or need to gain knowledge in specific areas. There are thousands of companies around the world offering bootcamps on different topics and with varying levels of quality, for a certain fee. Most of them also guarantee that you’ll land a job within a few months after completing the program.
+
+This was the reality before the global pandemic, which completely changed the game. After COVID-19 the UK government invested heavily in bootcamps to help upskill people during uncertain times. However, this led to higher dropout rates in bootcamp courses, as many signed up for free and weren’t truly committed since they weren’t paying anything. Hiring also shrank to basic levels, and the job market still hasn’t fully recovered today.
+
+The pandemic accelerated digital adoption, but economic challenges — including inflation, rising interest rates, and supply chain issues — caused a decline in consumer spending and mass layoffs, particularly in 2022 and early 2023. As a result, hiring decreased significantly for bootcamp graduates. Therefore, when starting a bootcamp, don’t expect to land a job immediately, and be sure to consider the financial commitment. It may be wise to prioritise free courses over paid ones.
+
+With the arrival of ChatGPT, Google Gemini, Anthropic’s Claude, and Facebook’s Llama, generative AIs have also transformed the job market. The positive impact is that many companies are investing in AI technology and hiring more people to explore its potential. However, many of these companies are unnecessarily chasing the "holy grail" by forcing AI into their products, focusing on trends rather than applying AI to the right use cases. Trends come and go, and we’ll see in a few years if AI was truly worth the bet. As of today, 85% of AI projects fail, with a lot of them [sadly being scams designed to attract investment](https://www.youtube.com/watch?v=d7DtiMzMBdU) or profit from preorders before disappearing with the money or at least hesitating to refund.
+
+AI-driven automation has rapidly taken over routine jobs as well. Therefore, it’s important to consider how much it affects bootcamps and junior developers. Using AI as a developer shouldn’t be an inexcusable sin, regardless of what the same people who back in the days were skeptical about the need for a global network of interconnected computers, but, like anything else, it should be used wisely. Mike mentioned that they teach bootcampers in a smart way. It’s not forbidden, but they encourage using AI for code generation only when the developer has already written something similar before. If you ask AI to generate code for something you don’t understand, you might end up shipping insecure or inefficient results due to hallucination and the AI’s tendency to produce responses aimed at satisfying you rather than being accurate. AI is still not advanced enough to steal people’s jobs, and it probably never will be (at least not in your life).
+
+I’ve been using Copilot for the past 8 months, and although my experience has been mixed, I’ve found a perfect use case where AI can be really powerful: learning new programming languages. It helps explain what a certain line of code does or provides examples of how to write the same code in different languages or frameworks, which has saved me hundreds of hours spent on Google and reading through manuals. It’s still not something I can blindly trust, but since I’ve mostly worked alone over the past year, it’s been useful for pair programming with a junior-mid level virtual assistant. It has often offered different perspectives on problems that I hadn’t considered. However, for higher-level design architecture decisions, I still recommend reading books on the topic, even if your AI of choice has read and can summarise them. My issue with services that extract key parts of a book is the lack of context. Authors aim to engage readers, and important concepts sometimes require a broader context. Additionally, reading has numerous benefits, such as improving focus, expanding vocabulary, and reducing stress.
+
+If you’re planning to start coding, go to YouTube and check out some introductory videos. Read a few articles in the topic, apply some short and free online courses and see if it’s something you might genuinely be interested in. There are many people who complete coding courses simply because the media has told them that anyone can become a coder and make a lot of money. However, speaking from my own experience as a middle-aged father looking for projects and jobs just to cover my bills and go for holiday once or twice in a year that’s not necessarily true.
+
+Once you’ve gathered all the information and still want to start your journey as a programmer, don’t spend years in school (which I also skipped). Instead, consider enrolling in a free bootcamp and stay curious.
+
+## Where to start?
+
+- [https://nationalcareers.service.gov.uk/find-a-course](https://nationalcareers.service.gov.uk/find-a-course/page?courseType=Skills%20Bootcamp&sectors=7) - Find Skill Bootcamps at National Careers
+- [https://www.coursereport.com](https://www.coursereport.com) - It’s like GlassDoor for courses. What’s not on here probably doesn’t worth the money.
+- [https://io-academy.uk](https://io-academy.uk) - Bootcamp Academy in Bath, they put a lot of effort to give you up-to-date skills and they focusing on the basics of programming rather than languages and frameworks.
+- [https://codebar.io](https://codebar.io) - A platform for minority group members to learn programming around the UK.
+- [https://www.codecademy.com](https://www.codecademy.com) - Free online courses to test our your interest.
+
+<script async data-uid="d274611a7b" src="https://crafty-innovator-8961.ck.page/d274611a7b/index.js"></script>
