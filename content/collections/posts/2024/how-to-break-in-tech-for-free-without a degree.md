@@ -1,6 +1,6 @@
 ---
 title: "How to break into tech for free without a degree"
-description: "PHP South West in Bristol hosted a valuable Q&A, offering insights into the changing dynamics of bootcamps in today’s job market. There is still value in learning coding today, despite the dominance of AI."
+description: "PHP South West in Bristol recently hosted a really valuable Q&A, offering insights into the changing dynamics of bootcamps in today’s job market. Spoiler alert: there is still value in learning coding today, despite the dominance of AI."
 date: "2024-09-12"
 tags: ["Jobs"]
 image: "/posts/how-to-break-into-tech.png"
