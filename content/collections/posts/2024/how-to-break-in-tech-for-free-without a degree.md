@@ -1,6 +1,6 @@
 ---
 title: "How to break into tech for free without a degree"
-description: "PHP South West in Bristol hosted a valuable Q&A, offering insights into the changing dynamics of bootcamps in today’s job market. There is still value in learning coding today, despite the dominance of AI."
+description: "PHP South West in Bristol recently hosted a really valuable Q&A, offering insights into the changing dynamics of bootcamps in today’s job market. Spoiler alert: there is still value in learning coding today, despite the dominance of AI."
 date: "2024-09-12"
 tags: ["Jobs"]
 image: "/posts/how-to-break-into-tech.png"
@@ -24,8 +24,8 @@ Once you’ve gathered all the information and still want to start your journey 
 ## Where to start?
 
 - [https://nationalcareers.service.gov.uk/find-a-course](https://nationalcareers.service.gov.uk/find-a-course/page?courseType=Skills%20Bootcamp&sectors=7) - Find Skill Bootcamps at National Careers
-- [https://www.coursereport.com](https://www.coursereport.com) - It’s like GlassDoor for courses. What’s not on here probably doesn’t worth the money.
-- [https://io-academy.uk](https://io-academy.uk) - Bootcamp Academy in Bath, they put a lot of effort to give you up-to-date skills and they focusing on the basics of programming rather than languages and frameworks.
+- [https://www.coursereport.com](https://www.coursereport.com) - It’s like GlassDoor for courses. What’s not on there you should probably avoid it.
+- [https://io-academy.uk](https://io-academy.uk) - Bootcamp Academy in Bath, they put a lot of effort to give you up-to-date skills, and they're focusing on the basics of programming rather than languages and frameworks.
 - [https://codebar.io](https://codebar.io) - A platform for minority group members to learn programming around the UK.
 - [https://www.codecademy.com](https://www.codecademy.com) - Free online courses to test our your interest.
 
