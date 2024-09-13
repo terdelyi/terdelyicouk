@@ -3,7 +3,7 @@ title: "How to break into tech for free without a degree"
 description: "PHP South West in Bristol hosted a valuable Q&A, offering insights into the changing dynamics of bootcamps in today’s job market. There is still value in learning coding today, despite the dominance of AI."
 date: "2024-09-12"
 tags: ["Jobs"]
-image: "/posts/search-for-title-or-meta-values-in-wordpress.png"
+image: "/posts/how-to-break-into-tech.png"
 ---
 In September, at [PHP South West](https://www.meetup.com/php-sw/) in Bristol there was a very insightful and informative Q&A about bootcamps with Mike Oram from IO Academy. We’ve probably all heard about bootcamps, which help you learn new skills at a fast pace, especially when you’re looking to change careers or need to gain knowledge in specific areas. There are thousands of companies around the world offering bootcamps on different topics and with varying levels of quality, for a certain fee. Most of them also guarantee that you’ll land a job within a few months after completing the program.
 
