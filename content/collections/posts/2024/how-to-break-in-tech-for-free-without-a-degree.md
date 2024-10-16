@@ -23,10 +23,8 @@ Once you’ve gathered all the information and still want to start your journey 
 
 ## Where to start?
 
-- [https://nationalcareers.service.gov.uk/find-a-course](https://nationalcareers.service.gov.uk/find-a-course/page?courseType=Skills%20Bootcamp&sectors=7) - Find Skill Bootcamps at National Careers
-- [https://www.coursereport.com](https://www.coursereport.com) - It’s like GlassDoor for courses. What’s not on there you should probably avoid it.
-- [https://io-academy.uk](https://io-academy.uk) - Bootcamp Academy in Bath, they put a lot of effort to give you up-to-date skills, and they're focusing on the basics of programming rather than languages and frameworks.
-- [https://codebar.io](https://codebar.io) - A platform for minority group members to learn programming around the UK.
-- [https://www.codecademy.com](https://www.codecademy.com) - Free online courses to test our your interest.
-
-<script async data-uid="d274611a7b" src="https://crafty-innovator-8961.ck.page/d274611a7b/index.js"></script>
+- Find [Skill Bootcamps at National Careers](https://nationalcareers.service.gov.uk/find-a-course/page?courseType=Skills%20Bootcamp&sectors=7).
+- [Course Report](https://www.coursereport.com) is like GlassDoor for courses, what’s not on there you should probably avoid it. 
+- [Bootcamp Academy in Bath](https://io-academy.uk) put a lot of effort to give you up-to-date skills, and they're focusing on the basics of programming rather than languages and frameworks.
+- [Codebar.io](https://codebar.io) is a platform for minority group members to learn programming around the UK.
+- [Code Academy](https://www.codecademy.com) offers free online courses to test our your interest.

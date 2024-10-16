@@ -5,8 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = {
     entry: {
-        site: './resources/js/site.js',
-        front: './resources/js/front.js'
+        site: './resources/js/site.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist/assets/js'),
