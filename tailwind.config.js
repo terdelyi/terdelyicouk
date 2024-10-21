@@ -12,6 +12,8 @@ module.exports = {
       serif: ['ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
     },
     colors: {
+      'white-bg': '#f8f8f8',
+      'grey-body': '#3c3c3c',
       'grey-100': '#ffffff',
       'grey-200': '#f1f1f1',
       'grey-300': '#eeeeee',

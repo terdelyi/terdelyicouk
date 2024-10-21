@@ -144,8 +144,7 @@ up with in his post. Others favour *catching bugs early, ensuring safety, reliab
 additional type information in the code and better IDE support*, even if compiling is a slower process or strict typing
 could affect readability.
 
-> "You don't need static type checking if you have 100% unit test coverage."
-> ([Robert C. Martin](https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html))
+> "You don't need static type checking if you have 100% unit test coverage." by [Robert C. Martin](https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html)
 
 Personally, I believe there isn't a good or bad choice here. **Like many aspects of software engineering, it's about
 trade-offs.** Whenever it's possible I always enforce strict typing in PHP and use static analysis as part of

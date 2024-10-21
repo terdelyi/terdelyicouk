@@ -1,6 +1,7 @@
 <?php
 $experienceInYears = date('Y')-2001;
 $image = $page->image ?? 'images/generic.png';
+/** @var $page \Terdelyi\Phanstatic\Models\Page */
 ?>
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -18,25 +19,26 @@ $image = $page->image ?? 'images/generic.png';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800" rel="stylesheet">
     <script src="https://cdn.usefathom.com/script.js" data-site="APGETVFU" defer></script>
+    <script>
+        const theme = localStorage.getItem('theme');
+        if (theme) {
+            document.documentElement.classList.add(theme);
+        }
+    </script>
 </head>
-<body class="bg-grey-300 dark:bg-grey-700 font-sans text-blue-400 dark:text-grey-500 antialiased">
+<body class="bg-white-bg dark:bg-grey-700 font-sans text-grey-body dark:text-grey-500 antialiased">
     <div class="flex flex-col h-screen justify-between">
         <header class="bg-blue-400 relative dark:bg-grey-800 text-grey-200 dark:text-grey-400">
-            <div class="w-full md:max-w-screen-md flex items-center justify-between mx-auto">
-                <div class="flex pl-4 md:pl-0 items-center">
-                    <div>
+            <div class="w-full md:max-w-screen-lg flex items-center justify-between mx-auto">
+                <div class="py-4 pl-4 lg:pl-0">
                         <h1 class="sm:text-xl">
                             <a href="/" class="hover:underline font-bold tracking-tight">Tamas Erdelyi</a>
                         </h1>
-                    </div>
-                    <div class="w-24 sm:w-32 -ml-4">
-                        <img alt="Not Kevin Smith" src="<?php echo asset('images/header-profile.png'); ?>" />
-                    </div>
                 </div>
-                <nav class="hidden sm:block pr-12 md:pr-0">
+                <nav class="hidden sm:block pr-12 lg:pr-0">
                     <ul class="px-4 md:px-0 text-sm md:text-base font-normal tracking-tight inline-flex">
                         <li><a href="/about/" class="px-4 sm:px-3 hover:underline<?php if ($page->is('/about/')) :?> font-bold<?php endif; ?>">About</a></li>
-                        <li><a href="/posts/" class="px-4 sm:px-3 hover:underline<?php if ($page->is('/posts/')) :?> font-bold<?php endif; ?>">Posts</a></li>
+                        <li><a href="/posts/" class="px-4 sm:px-3 hover:underline<?php if ($page->is('/posts/') || $page->is('posts')) :?> font-bold<?php endif; ?>">Posts</a></li>
                         <li><a href="/uses/" class="px-4 sm:px-3 hover:underline<?php if ($page->is('/uses/')) :?> font-bold<?php endif; ?>">Uses</a></li>
                         <li><a href="/contact/" class="px-4 md:pr-0 sm:px-4 hover:underline<?php if ($page->is('/contact/')) :?> font-bold<?php endif; ?>">Contact</a></li>
                     </ul>
@@ -69,4 +71,9 @@ $image = $page->image ?? 'images/generic.png';
                 </a>
             </div>
         </header>
-        <main class="mb-auto px-4 sm:px-0 container-md pt-5 sm:pt-10 pb-2 sm:pb-4">
+
+        <?php if ($page->permalink === '/') : ?>
+        <main class="flex h-screen mb-auto px-4 sm:px-0 container-md">
+        <?php else : ?>
+        <main class="mb-auto px-4 sm:px-0 container-md pt-5 sm:pt-10 pb-4 sm:pb-6">
+        <?php endif; ?>

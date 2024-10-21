@@ -21,11 +21,11 @@ $image = $page->image ?? 'images/generic.png';
 
 <div class="max-w-screen-sm mx-auto p-5 sm:p-10">
     <ul>
-        <li class="mb-1"><a href="https://linkedin.com/in/terdelyi/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">LinkedIn</a></li>
-        <li class="mb-1"><a href="https://x.com/terdelyi" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">X / Twitter</a></li>
-        <li class="mb-1"><a href="https://github.com/terdelyi/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">GitHub</a></li>
-        <li class="mb-1"><a href="https://github.com/terdelyi/phanstatic/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Phanstatic</a></li>
-        <li class="mb-1"><a href="https://webdeveloperforhire.co.uk" class="block bg-grey-700 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Web Developer for Hire</a></li>
+        <li class="mb-1"><a href="https://linkedin.com/in/terdelyi/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Add me on LinkedIn</a></li>
+        <li class="mb-1"><a href="https://x.com/terdelyi" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Follow me on X (formerly Twitter)</a></li>
+        <li class="mb-1"><a href="https://github.com/terdelyi/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Follow me on GitHub</a></li>
+        <li class="mb-1"><a href="https://github.com/terdelyi/phanstatic/" class="block bg-blue-500 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Phanstatic - Static Site Generator</a></li>
+        <li class="mb-1"><a href="https://webdeveloperforhire.co.uk" class="block bg-grey-700 hover:bg-pink text-grey-100 px-4 py-4 text-center font-bold text-lg">Hire me!</a></li>
         <li class="mt-4"><a href="https://terdelyi.co.uk" class="block text-center text-sm underline">&#8592; Back to the website</a></li>
     </ul>
 </div>
