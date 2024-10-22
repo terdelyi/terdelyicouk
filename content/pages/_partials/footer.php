@@ -23,7 +23,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="mt-4 md:mt-0 pl-10 pr-10 lg:pr-0 text-xs sm:text-sm text-center md:text-right">
+                <div class="mt-4 md:mt-0 pl-10 pr-10 lg:pr-0 text-xs text-center md:text-right">
                     No webdesigners were harmed in the making of this website.<br class="hidden md:block">All rights reserved (c) <?php echo date('Y'); ?>.
                 </div>
             </div>
