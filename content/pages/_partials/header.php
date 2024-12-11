@@ -1,7 +1,7 @@
 <?php
+/** @var $page \Terdelyi\Phanstatic\Models\Page */
 $experienceInYears = date('Y')-2001;
 $image = $page->image ?? 'images/generic.png';
-/** @var $page \Terdelyi\Phanstatic\Models\Page */
 ?>
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -27,7 +27,7 @@ $image = $page->image ?? 'images/generic.png';
     </script>
 </head>
 <body class="bg-white-bg dark:bg-grey-700 font-sans text-grey-body dark:text-grey-500 antialiased">
-    <div class="flex flex-col min-h-screen">
+    <div class="flex flex-col min-h-dvh">
         <header class="bg-blue-400 relative dark:bg-grey-800 text-grey-200 dark:text-grey-400">
             <div class="w-full md:max-w-screen-lg flex items-center justify-between mx-auto h-14">
                 <div class="pl-4 lg:pl-0">
@@ -61,7 +61,7 @@ $image = $page->image ?? 'images/generic.png';
                 <ul>
                     <li class="pb-1"><a href="/about/" class="hover:underline<?php if ($page->is('/about/')) :?> font-bold text-grey-100<?php endif; ?>">About</a></li>
                     <li class="pb-1"><a href="/posts/" class="hover:underline<?php if ($page->is('/posts/')) :?> font-bold text-grey-100<?php endif; ?>">Posts</a></li>
-                    <li class="pb-1"><a href="/talks/" class="hover:underline<?php if ($page->is('/uses/')) :?> font-bold text-grey-100<?php endif; ?>">Talks</a></li>
+                    <li class="pb-1"><a href="/talks/" class="hover:underline<?php if ($page->is('/talks/')) :?> font-bold text-grey-100<?php endif; ?>">Talks</a></li>
                     <li class="pb-1"><a href="/uses/" class="hover:underline<?php if ($page->is('/uses/')) :?> font-bold text-grey-100<?php endif; ?>">Uses</a></li>
                     <li class="pb-1"><a href="/contact/" class="hover:underline<?php if ($page->is('/contact/')) :?> font-bold text-grey-100<?php endif; ?>">Contact</a></li>
                 </ul>
@@ -75,4 +75,4 @@ $image = $page->image ?? 'images/generic.png';
         </header>
 
 
-        <main class="px-4 lg:px-0 container-md <?php if ($page->permalink === '/') : ?>flex-grow flex justify-center items-center<?php else : ?>pt-5 sm:pt-10 pb-4 sm:pb-6 flex-grow<?php endif; ?>">
+        <main class="px-4 lg:px-0 container-md flex-grow <?php if ($page->permalink === '/') : ?>flex justify-center items-center<?php else : ?>pt-5 sm:pt-10 pb-4 sm:pb-6<?php endif; ?>">
