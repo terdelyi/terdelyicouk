@@ -73,7 +73,7 @@ $image = $page->image ?? 'images/generic.png';
         </header>
 
         <?php if ($page->permalink === '/') : ?>
-        <main class="flex h-screen mb-auto px-4 sm:px-0 container-md">
+        <main class="flex h-dvh mb-auto px-4 sm:px-0 container-md">
         <?php else : ?>
         <main class="mb-auto px-4 sm:px-0 container-md pt-5 sm:pt-10 pb-4 sm:pb-6">
         <?php endif; ?>
