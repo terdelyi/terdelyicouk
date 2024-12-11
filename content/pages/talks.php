@@ -4,7 +4,7 @@
         <h1>Talks</h1>
         <div class="md:flex gap-8">
             <div class="hidden md:block w-1/3">
-                <img src="<?php echo asset('pages/talk1.jpg') ?>" class="rounded-md shadow-md">
+                <img src="<?php echo asset('pages/talk1.jpg') ?>" alt="PHP + Static = Phanstatic at PHPSW" class="rounded-md shadow-md">
             </div>
             <div class="md:w-2/3 leading-relaxed">
                 <div class="text-sm mb-1 font-bold text-blue-600">July 2024</div>
