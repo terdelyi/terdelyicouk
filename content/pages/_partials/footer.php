@@ -1,6 +1,6 @@
         </main>
         <footer class="bg-gradient-to-b from-white-bg to-grey-400 dark:from-grey-700 dark:to-grey-800 text-grey-600 dark:text-grey-500">
-            <div class="max-w-screen-lg mx-auto px-5 gap-10 lg:px-0 sm:flex justify-between items-center text-center md:text-left <?php if ($page->permalink === '/') : ?>pb-10<?php else : ?>py-10<?php endif; ?>">
+            <div class="max-w-screen-lg mx-auto px-5 gap-10 lg:px-0 sm:flex justify-between items-center text-center md:text-left h-24">
                 <div>
                     <ul class="inline-flex">
                         <li>
