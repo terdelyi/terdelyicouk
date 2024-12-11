@@ -1,6 +1,6 @@
 <?php include 'content/pages/_partials/header.php'; ?>
 
-<div class="max-w-screen-lg mx-auto -my-12">
+<div class="max-w-screen-lg max-h-dvh mx-auto">
     <div class="w-full sm:max-w-screen-lg flex items-center text-center lg:text-left">
         <div class="w-full mb-0 lg:w-3/5">
             <div class="whitespace-pre-line mb-2 px-4 sm:px-0 text-4xl md:text-5xl tracking-tight text-blue-600 dark:text-grey-400 font-extrabold">I'm a Software Developer</div>
