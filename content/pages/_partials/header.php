@@ -31,9 +31,9 @@ $image = $page->image ?? 'images/generic.png';
         <header class="bg-blue-400 relative dark:bg-grey-800 text-grey-200 dark:text-grey-400">
             <div class="w-full md:max-w-screen-lg flex items-center justify-between mx-auto">
                 <div class="py-4 pl-4 lg:pl-0">
-                        <h1 class="sm:text-xl">
-                            <a href="/" class="hover:underline font-bold tracking-tight">Tamas Erdelyi</a>
-                        </h1>
+                    <h1 class="sm:text-xl">
+                        <a href="/" class="hover:underline font-bold tracking-tight">Tamas Erdelyi</a>
+                    </h1>
                 </div>
                 <nav class="hidden sm:block pr-12 sm:pr-12 md:pr-20 xl:pr-0">
                     <ul class="px-4 md:px-0 text-sm md:text-base font-normal tracking-tight inline-flex">
@@ -77,5 +77,5 @@ $image = $page->image ?? 'images/generic.png';
         <?php if ($page->permalink === '/') : ?>
         <main class="flex h-screen mb-auto px-4 sm:px-0 container-md">
         <?php else : ?>
-        <main class="mb-auto px-4 sm:px-0 container-md pt-5 sm:pt-10 pb-4 sm:pb-6">
+        <main class="mb-auto px-4 md:px-0 container-md pt-5 sm:pt-10 pb-4 sm:pb-6">
         <?php endif; ?>
