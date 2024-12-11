@@ -7,7 +7,7 @@
             <div class="sm:whitespace-pre-line mb-10 px-10 sm:px-0 text-blue-600 dark:text-grey-400 text-2xl md:text-3xl leading-tight tracking-tight">with <span class="font-extrabold text-pink"><?php echo $experienceInYears; ?> years of full-stack experience</span>
                 based in Gloucestershire, UK</div>
             <div class="text-lg/7 sm:text-lg/7 pl-8 pr-8 lg:pl-0 lg:pr-10">
-                <p>When I'm not freelancing I run a part-time software development agency and bootstrapping projects, but I'm also building an open-source static site generator <strong>Phanstatic</strong>.</p>
+                <p>When I'm not freelancing I run a part-time software development agency and bootstrapping projects, but I'm also building an open-source static site generator <a href="" class="text-pink underline hover:text-blue-600">Phanstatic</a>.</p>
             </div>
         </div>
         <div class="hidden lg:block w-full lg:w-2/5">

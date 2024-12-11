@@ -27,7 +27,7 @@ $image = $page->image ?? 'images/generic.png';
     </script>
 </head>
 <body class="bg-white-bg dark:bg-grey-700 font-sans text-grey-body dark:text-grey-500 antialiased">
-    <div class="flex flex-col h-screen justify-between">
+    <div class="flex flex-col min-h-screen">
         <header class="bg-blue-400 relative dark:bg-grey-800 text-grey-200 dark:text-grey-400">
             <div class="w-full md:max-w-screen-lg flex items-center justify-between mx-auto">
                 <div class="py-4 pl-4 lg:pl-0">
@@ -74,8 +74,5 @@ $image = $page->image ?? 'images/generic.png';
             </div>
         </header>
 
-        <?php if ($page->permalink === '/') : ?>
-        <main class="flex h-screen px-4 sm:px-0 container-md -pt-14">
-        <?php else : ?>
-        <main class="mb-auto px-4 md:px-0 container-md pt-5 sm:pt-10 pb-4 sm:pb-6">
-        <?php endif; ?>
+
+        <main class="px-4 lg:px-0 container-md <?php if ($page->permalink === '/') : ?>flex-grow flex justify-center items-center<?php else : ?>pt-5 sm:pt-10 pb-4 sm:pb-6 flex-grow<?php endif; ?>">
