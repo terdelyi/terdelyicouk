@@ -1,7 +1,7 @@
 <?php include 'content/pages/_partials/header.php'; ?>
 
 <article class="full px-0">
-    <h1>My tech stack and additional gadgets</h1>
+    <h1>Gadgets and tool set</h1>
     <div class="mb-8">
         <h2>Hardware</h2>
         <div class="sm:flex">
@@ -33,6 +33,15 @@
                 <div class="text-base/7 mb-8">I'm a loyal iPhone user since the 3GS.</div>
             </div>
         </div>
+        <h2>Software</h2>
+        <div class="sm:flex">
+            <div class="md:w-1/2">
+                <h4>PHPStorm</h4>
+                <div class="text-base/7 mb-8">The best IDE for PHP and web development: it has a client for everything from Git conflicts through Docker and databases. I'm
+                    intentionally <a href="https://stitcher.io/blog/why-light-themes-are-better-according-to-science">using it with a light theme</a>.
+                </div>
+            </div>
+        </div>
         <h2>On my desk</h2>
         <div class="sm:flex">
             <div class="md:w-1/2 md:pr-6">
@@ -51,15 +60,6 @@
                 <div class="text-base/7 mb-8">People had been talking about it in the office, and I finally gave it a go after a few months. Immediately dropped
                     my desk lamp and saved more space. It's hard to find the best position on the top of the monitor when
                     you also have a webcam, but the remote control is very cool.</div>
-            </div>
-        </div>
-        <h2>Software</h2>
-        <div class="sm:flex">
-            <div class="md:w-1/2">
-                <h4>PHPStorm</h4>
-                <div class="text-base/7 mb-8">The best IDE for PHP and web development: it has a client for everything from Git conflicts through Docker and databases. I'm
-                    intentionally <a href="https://stitcher.io/blog/why-light-themes-are-better-according-to-science">using it with a light theme</a>.
-                </div>
             </div>
         </div>
         <h2>Music production</h2>

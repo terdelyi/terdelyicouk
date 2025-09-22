@@ -5,8 +5,8 @@
         <?php if ($i === 0) : ?>
             <h1>Posts</h1>
         <?php endif; ?>
-        <h2 class="font-header text-xl font-bold mb-2 leading-tight tracking-tight underline"><a href="<?php echo $item->link; ?>" class="text-pink hover:text-blue-600 dark:hover:text-grey-400 hover:underline"><?php echo $item->title; ?></a></h2>
-        <div class="leading-relaxed"><?php echo $item->excerpt; ?></div>
+        <h2 class="font-header text-xl font-semibold mb-2 leading-tight tracking-tight underline"><a href="<?php echo $item->link; ?>" class="text-accent hover:text-primary dark:hover:text-content hover:underline"><?php echo $item->title; ?></a></h2>
+        <div class="leading-normal"><?php echo $item->excerpt; ?></div>
     </article>
 <?php endforeach ;?>
 

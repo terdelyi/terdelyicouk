@@ -2,20 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --color-primary: 46 69 190;
+    --color-secondary: 20 31 77;
+    --color-accent: 253 19 89;
+    --color-body: 75 75 75;
+    --color-black: 30 30 30;
+    --color-content: 248 248 248;
+    --color-white: 255 255 255;
+}
+
 .pagination {
     @apply inline-flex;
 }
 
 .pagination a {
-    @apply bg-grey-200 dark:bg-grey-600 text-grey-600 dark:text-grey-400 px-2 py-1 rounded mr-1 leading-none font-semibold;
+    @apply text-accent px-2 py-1 rounded mr-1 leading-none font-semibold;
 }
 
 .pagination a:hover {
-    @apply bg-pink text-grey-200;
+    @apply text-content;
 }
 
 .pagination a.active {
-    @apply bg-grey-800 text-grey-200;
+    @apply text-content;
 }
 
 
@@ -28,31 +38,31 @@ article.full {
 }
 
 article h1 {
-    @apply text-3xl sm:text-4xl font-bold mb-8 text-blue-600 dark:text-grey-400 tracking-tight;
+    @apply font-title text-5xl font-extrabold mb-8 text-primary dark:text-content tracking-tight;
 }
 
 article h2 {
-    @apply font-bold text-2xl mt-8 mb-6 text-blue-600 dark:text-grey-400 leading-tight tracking-tight;
+    @apply font-title font-extrabold text-3xl mt-10 mb-6 text-primary dark:text-content leading-tight tracking-tight;
 }
 
 article h3 {
-    @apply text-blue-600 dark:text-grey-400 font-semibold text-xl/7 mb-6;
+    @apply font-title text-primary dark:text-content font-extrabold text-2xl/7 mb-6;
 }
 
 article h4 {
-    @apply text-blue-600 dark:text-grey-400 font-semibold text-lg/7 mb-1;
+    @apply font-title text-primary dark:text-content font-semibold text-xl/7 mb-1;
 }
 
 article p {
-    @apply mb-6 text-lg/8;
+    @apply mb-6 text-lg/7;
 }
 
 article p code {
-    @apply px-2 p-1 text-base/8 rounded text-blue-600 dark:text-grey-400 bg-grey-100 dark:bg-grey-800 shadow;
+    @apply px-2 p-1 text-sm/7 rounded-lg text-black/80 dark:text-content bg-white dark:bg-white/10 border border-black/20 dark:border-white/15;
 }
 
 article ul {
-    @apply mb-10 ml-6 text-lg/8 list-disc;
+    @apply mb-10 ml-6 text-lg/7 list-disc;
 }
 
 article ul li {
@@ -60,55 +70,63 @@ article ul li {
 }
 
 article ol {
-    @apply mb-10 ml-6 text-lg/8 list-decimal;
+    @apply mb-10 ml-6 text-lg/7 list-decimal;
 }
 
 article ol li {
     @apply mb-3 pl-2;
 }
 
+article strong {
+    @apply text-black dark:text-content font-semibold;
+}
+
 article a {
-    @apply underline text-pink cursor-pointer;
+    @apply underline text-accent cursor-pointer;
 }
 
 article a:hover {
-    @apply text-blue-600 dark:text-grey-100;
+    @apply text-primary dark:text-white;
 }
 
 article pre {
-    @apply mb-6 py-2 px-3 text-sm rounded-md overflow-x-auto font-mono bg-grey-100 dark:bg-grey-800 shadow-md;
+    @apply -mx-20 mb-8 py-2 pb-0 px-4 text-sm rounded-lg overflow-x-auto font-mono bg-white dark:bg-white/5 shadow-lg dark:shadow-none border border-black/10 dark:border-white/10;
+}
+
+article pre code.hljs {
+    @apply dark:bg-white/0;
 }
 
 article blockquote {
-    @apply text-xl/7 mb-8 bg-[url('../../content/assets/images/quote.svg')] bg-no-repeat font-bold pt-2 pl-10;
+    @apply mb-8 bg-[url('../../content/assets/images/quote.svg')] bg-no-repeat pt-2 pl-12 pr-12;
     background-size: 25px;
     background-position: 5px 0;
 }
 
 article blockquote p {
-    @apply text-xl/7;
+    @apply text-xl/7 font-semibold font-title tracking-tight text-black dark:text-content;
 }
 
 article blockquote a {
-    @apply underline text-pink cursor-pointer;
+    @apply underline text-accent cursor-pointer;
 }
 
 article blockquote a:hover {
-    @apply text-blue-600 dark:text-grey-100;
+    @apply text-primary dark:text-white;
 }
 
 article aside {
-    @apply text-lg/6 text-blue-600 dark:text-grey-100 pl-16 pr-5 py-3 shadow-md bg-grey-100 dark:bg-grey-800 leading-relaxed rounded-md mb-8 bg-[url('../../content/assets/images/bulb.svg')] bg-no-repeat fill-grey-400;
+    @apply text-lg/6 text-body dark:text-white pl-16 pr-5 py-5 shadow-lg bg-black/5 dark:bg-white/5 border border-body/10 dark:border-white/10 rounded-lg mb-8 bg-[url('../../content/assets/images/bulb.svg')] bg-no-repeat;
     background-size: 25px;
-    background-position: 18px 15px;
+    background-position: 20px 22px;
 }
 
 article aside a {
-    @apply text-blue-400 dark:text-grey-100;
+    @apply underline dark:text-white/80;
 }
 
 article aside a:hover {
-    @apply text-blue-600 dark:text-grey-100;
+    @apply text-primary dark:text-white;
 }
 
 article aside p {
@@ -124,32 +142,22 @@ article aside p {
 
 form input[type="text"], form input[type="email"], form textarea {
     -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
-    @apply w-full py-2 px-3 bg-grey-100 dark:bg-blue-450 rounded-md border border-grey-400 dark:border-grey-600 dark:text-grey-400;
+    @apply w-full py-3 px-4 border-body/10 dark:border-content/10 bg-white dark:bg-content/10 rounded-lg dark:text-content shadow-sm;
 }
 
 form input[type="text"]::placeholder, form input[type="email"]::placeholder, form textarea::placeholder {
-    @apply text-grey-500 dark:text-grey-700;
+    @apply text-body dark:text-content;
 }
 
 form input[type="text"]:focus, form input[type="email"]:focus, form textarea:focus {
-    @apply border border-blue-600 dark:border-grey-600 outline-none;
+    @apply border-0 outline-none;
 }
 
 form button[type='submit'] {
-    @apply bg-pink text-grey-100 px-4 py-2 rounded-md font-bold;
+    @apply bg-accent text-content px-4 py-2 rounded-md font-semibold;
 }
 
 form button[type='submit']:hover {
-    @apply bg-blue-600 dark:bg-grey-400 text-grey-200 dark:text-blue-700;
-}
-
-.formkit-form {
-    border: 0!important;
-    margin: 0 auto!important;
-}
-
-.formkit-form > div {
-    padding: 0!important;
+    @apply bg-primary dark:bg-content/90 text-content dark:text-secondary;
 }
