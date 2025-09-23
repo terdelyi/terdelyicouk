@@ -17,4 +17,10 @@ return ConfigBuilder::make()
         'posts',
         10
     )
+    ->addCollection(
+        'weeknotes',
+        'Weeknotes',
+        'weeknotes/2025',
+        10
+    )
     ->build();

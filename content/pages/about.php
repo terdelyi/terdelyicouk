@@ -1,7 +1,6 @@
 <?php include 'content/pages/_partials/header.php'; ?>
 
-<article class="max-w-screen-md">
-        <h1>About</h1>
+    <article>
         <div class="has-content mb-8">
             <p>I was about ten when I first met with a real computer: it was our neighbour's Commodore 64.
                 I was so excited that my dad had to buy one for us. I liked games, but I more liked the fact I can make
@@ -19,12 +18,12 @@
             </p>
             <p>
                 Then came the internet. I started coding websites for Netscape Navigator through a dial-up modem
-                with FrontPage Express, using the earliest versions of HTML and CSS. In my twenties, <a src="https://moziplussz.hu">I launched a webmagazine about movies</a>
+                with FrontPage Express, using the earliest versions of HTML and CSS. In my twenties, <a src="https://web.archive.org/web/20160304123336/http://www.moziplussz.hu/">I launched a portal about movies</a>
                 and began to make websites for different size of businesses.
             </p>
             <div class="mb-6">
-                <img src="<?php echo asset('images/setup.jpg'); ?>" class="object-cover mb-2 rounded-md shadow-md" alt="Various desktop setups between 2009 and 2020" />
-                <div class="text-sm text-blue-300 dark:text-blue-200 text-center italic">My desktop setups between 2009 and 2020</div>
+                <img src="<?php echo asset('images/setup.jpg'); ?>" class="object-cover mb-4 rounded-lg shadow-md" alt="Various desktop setups between 2009 and 2020" />
+                <div class="text-sm text-neutral-300 dark:text-blue-200 text-center">My desktop setups between 2009 and 2020</div>
             </div>
             <p>In 2005, I needed something more permanent, so I was building websites using TYPO3 and PHP 5. Years later, I grew tired of agency projects,
                 I tried myself a freelancer, but I had no real strategy. After two challenging years, rent and bills eventually won, and I lost my independence.
