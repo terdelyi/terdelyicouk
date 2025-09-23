@@ -1,6 +1,6 @@
 <?php
-$experienceInYears = date('Y')-2001;
-$image = $page->image ?? 'images/generic.png';
+    $experienceInYears = date('Y')-2001;
+    $image = $page->image ?? 'images/generic.png';
 ?>
 <!DOCTYPE html>
 <html lang="en-GB">

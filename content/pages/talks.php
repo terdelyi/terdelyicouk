@@ -1,7 +1,6 @@
 <?php include 'content/pages/_partials/header.php'; ?>
 
     <article class="mb-10">
-        <h1>Talks</h1>
         <div class="md:flex gap-8">
             <div class="hidden md:block w-1/3">
                 <img src="<?php echo asset('pages/talk1.jpg') ?>" alt="PHP + Static = Phanstatic at PHPSW" class="rounded-lg shadow-md">

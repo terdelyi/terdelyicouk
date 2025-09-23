@@ -1,7 +1,6 @@
 <?php include 'content/pages/_partials/header.php'; ?>
 
     <article>
-        <h1>About</h1>
         <div class="has-content mb-8">
             <p>I was about ten when I first met with a real computer: it was our neighbour's Commodore 64.
                 I was so excited that my dad had to buy one for us. I liked games, but I more liked the fact I can make

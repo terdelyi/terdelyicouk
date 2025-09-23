@@ -9,7 +9,7 @@ $image = $page->image ?? 'images/generic.png';
     <meta charset="utf-8">
     <title>Tamas Erdelyi </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="I'm is a Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, United Kingdom">
+    <meta name="description" content="Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, UK">
     <meta property="og:image" content="<?php echo asset($image); ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo asset('favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
@@ -36,11 +36,11 @@ $image = $page->image ?? 'images/generic.png';
                 </div>
                 <nav class="hidden font-title sm:block pr-12 sm:pr-12 md:pr-20 xl:pr-0">
                     <ul class="px-4 md:px-0 text-sm md:text-base font-normal tracking-tight inline-flex">
-                        <li><a href="/about/" class="px-4 sm:px-3 hover:underline dark:hover:text-content<?php if ($page->is('/about/')) :?> font-bold dark:text-content<?php endif; ?>">About</a></li>
-                        <li><a href="/posts/" class="px-4 sm:px-3 hover:underline dark:hover:text-content<?php if ($page->is('/posts/') || $page->is('posts')) :?> font-bold dark:text-content<?php endif; ?>">Posts</a></li>
-                        <li><a href="/talks/" class="px-4 sm:px-3 hover:underline dark:hover:text-content<?php if ($page->is('/talks/')) :?> font-bold dark:text-content<?php endif; ?>">Talks</a></li>
-                        <li><a href="/uses/" class="px-4 sm:px-3 hover:underline dark:hover:text-content<?php if ($page->is('/uses/')) :?> font-bold dark:text-content<?php endif; ?>">Uses</a></li>
-                        <li><a href="/contact/" class="px-4 md:pr-0 sm:px-4 hover:underline dark:hover:text-content<?php if ($page->is('/contact/')) :?> font-bold dark:text-content<?php endif; ?>">Contact</a></li>
+                        <li><a href="/about/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/about/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">About</a></li>
+                        <li><a href="/posts/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/posts/') || $page->is('posts')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Posts</a></li>
+                        <li><a href="/talks/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/talks/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Talks</a></li>
+                        <li><a href="/uses/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/uses/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Uses</a></li>
+                        <li><a href="/contact/" class="px-4 md:pr-0 sm:px-4 hover:underline dark:hover:text-content <?php if ($page->is('/contact/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="flex sm:hidden mr-4">
