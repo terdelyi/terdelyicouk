@@ -2,6 +2,7 @@
 
     <article>
         <div class="has-content mb-8">
+            <h1>About me</h1>
             <p>I was about ten when I first met with a real computer: it was our neighbour's Commodore 64.
                 I was so excited that my dad had to buy one for us. I liked games, but I more liked the fact I can make
                 the computer to ask some input from me then output them differently on the screen.
@@ -22,7 +23,10 @@
                 and began to make websites for different size of businesses.
             </p>
             <div class="mb-6">
-                <img src="<?php echo asset('images/setup.jpg'); ?>" class="object-cover mb-4 rounded-lg shadow-md" alt="Various desktop setups between 2009 and 2020" />
+                <img src="<?php echo asset('images/setup.jpg'); ?>"
+                     class="object-cover mb-4 rounded-lg shadow-md"
+                     loading="lazy"
+                     alt="Various desktop setups between 2009 and 2020" />
                 <div class="text-sm text-neutral-300 dark:text-blue-200 text-center">My desktop setups between 2009 and 2020</div>
             </div>
             <p>In 2005, I needed something more permanent, so I was building websites using TYPO3 and PHP 5. Years later, I grew tired of agency projects,

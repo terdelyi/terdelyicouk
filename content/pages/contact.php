@@ -1,6 +1,7 @@
 <?php include 'content/pages/_partials/header.php'; ?>
 
     <article>
+        <h1>Let's chat!</h1>
         <p class="mb-8">If you'd like to contact me, have any questions, an exciting project idea, or a contract or job opportunity, please fill me in with the details. I usually reply within a couple of workdays.</p>
         <div class="mb-8">
             <form name="contact" method="POST" action="<?php echo url('contact/thanks/') ?>" data-netlify="true" data-netlify-honeypot="bot-field" autocomplete="off">

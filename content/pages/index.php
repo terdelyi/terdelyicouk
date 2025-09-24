@@ -3,18 +3,21 @@
     <div class="max-w-screen-lg max-h-dvh mx-auto">
         <div class="w-full sm:max-w-screen-lg flex items-center text-center lg:text-left">
             <div class="w-full mb-0 lg:w-3/5">
-                <div class="whitespace-pre-line mb-2 px-4 sm:px-0 font-title text-4xl sm:text-5xl tracking-tight text-primary dark:text-content font-bold">
+                <div class="whitespace-pre-line mb-2 px-4 sm:px-0 font-title text-4xl sm:text-5xl tracking-tight text-secondary dark:text-content font-bold">
                     I'm a Software Developer
                 </div>
-                <div class="sm:whitespace-pre-line mb-10 px-10 sm:px-0 font-title text-primary dark:text-content text-xl sm:text-2xl md:text-3xl leading-normal tracking-tight">with <span class="font-bold text-accent"><?php echo $experienceInYears; ?> years of full-stack experience</span>
+                <div class="sm:whitespace-pre-line mb-10 px-10 sm:px-0 font-title text-secondary dark:text-content text-xl sm:text-2xl md:text-3xl leading-normal tracking-tight">with <span class="font-bold text-accent"><?php echo $experienceInYears; ?> years of full-stack experience</span>
                     based in Gloucestershire, UK
                 </div>
                 <div class="lg:hidden">
-                    <img class="w-1/2 md:w-1/3 mx-auto mb-10 -mt-3 drop-shadow-lg" title="Definitely not Kevin Smith" alt="Not Kevin Smith"
+                    <img class="w-1/2 md:w-1/3 mx-auto mb-10 -mt-3 drop-shadow-lg"
+                         title="Definitely not Kevin Smith"
+                         alt="Not Kevin Smith"
+                         loading="eager"
                          src="<?php echo asset('images/me.png'); ?>"/>
                 </div>
                 <div class="max-w-screen-sm mx-auto lg:w-full pl-8 pr-8 lg:pl-0 lg:pr-10">
-                    <p class="text-lg/7">I also run a part-time software development company and bootstrapping projects
+                    <p class="text-lg/7">I also run <a href="https://tripleweb.co.uk" class="text-accent dark:text-content/85 underline hover:text-primary dark:hover:text-content">a part-time software development company</a> and bootstrapping projects
                         and maintaining an open-source static site generator <a
                                 href="https://github.com/terdelyi/phanstatic"
                                 class="text-accent dark:text-content/85 underline hover:text-primary dark:hover:text-content">Phanstatic</a>.

@@ -27,15 +27,15 @@ $image = $page->image ?? 'images/generic.png';
 </head>
 <body class="bg-content dark:bg-secondary font-sans text-body dark:text-content/80 antialiased">
     <div class="flex flex-col min-h-dvh">
-        <header class="relative font-title <?php if ($page->permalink !== '/') : ?>bg-secondary/95 dark:border-b dark:border-white/10 text-content dark:text-grey-400<?php else : ?>border-b border-body/10 dark:border-0<?php endif; ?>">
-            <div class="w-full flex items-center justify-between mx-auto h-16 md:max-w-screen-lg">
-                <div class="pl-4 lg:pl-0">
+        <header class="relative font-title <?php if ($page->permalink !== '/') : ?>bg-secondary/95 text-content dark:text-grey-400<?php else : ?>border-b border-body/10 dark:border-0<?php endif; ?>">
+            <div class="w-full flex items-center justify-between mx-auto h-16 md:max-w-screen-lg <?php if ($page->permalink !== '/') : ?>dark:border-b dark:border-white/10<?php endif; ?>">
+                <div class="pl-6 lg:pl-0 <?php if ($page->permalink !== '/') : ?>dark:lg:pl-6<?php endif; ?>">
                     <h1 class="text-lg sm:text-xl">
                         <a href="/" class="hover:underline dark:hover:text-content font-semibold tracking-tight">Tamas Erdelyi</a>
                     </h1>
                 </div>
-                <nav class="hidden font-title sm:block pr-12 sm:pr-12 md:pr-20 xl:pr-0">
-                    <ul class="px-4 md:px-0 text-sm md:text-base font-normal tracking-tight inline-flex">
+                <nav class="hidden font-title sm:block pr-12 sm:pr-12 md:pr-20 xl:pr-0 <?php if ($page->permalink !== '/') : ?>dark:xl:pr-6<?php endif; ?>">
+                    <ul class="px-6 md:px-0 text-sm md:text-base font-normal tracking-tight inline-flex">
                         <li><a href="/about/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/about/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">About</a></li>
                         <li><a href="/posts/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/posts/') || $page->is('posts')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Posts</a></li>
                         <li><a href="/talks/" class="px-4 sm:px-3 hover:underline dark:hover:text-content <?php if ($page->is('/talks/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Talks</a></li>
@@ -43,7 +43,7 @@ $image = $page->image ?? 'images/generic.png';
                         <li><a href="/contact/" class="px-4 md:pr-0 sm:px-4 hover:underline dark:hover:text-content <?php if ($page->is('/contact/')) :?>font-bold dark:text-content opacity-70<?php else: ?>font-semibold<?php endif; ?>">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="flex sm:hidden mr-4">
+                <div class="flex sm:hidden mr-6">
                     <button id="mobile-menu-show" class="hover:text-opacity-70 dark:hover:text-content">
                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -56,7 +56,7 @@ $image = $page->image ?? 'images/generic.png';
                     </button>
                 </div>
             </div>
-            <div id="mobile-menu" class="max-w-screen-md sm:hidden px-4 md:px-0 pb-4 mx-auto dark:bg-secondary hidden">
+            <div id="mobile-menu" class="max-w-screen-md sm:hidden px-6 md:px-0 pb-4 mx-auto dark:bg-secondary hidden">
                 <ul>
                     <li class="pb-1"><a href="/about/" class="hover:underline<?php if ($page->is('/about/')) :?> font-bold text-white<?php endif; ?>">About</a></li>
                     <li class="pb-1"><a href="/posts/" class="hover:underline<?php if ($page->is('/posts/')) :?> font-bold text-white<?php endif; ?>">Posts</a></li>
@@ -65,7 +65,7 @@ $image = $page->image ?? 'images/generic.png';
                     <li class="pb-1"><a href="/uses/" class="hover:underline<?php if ($page->is('/uses/')) :?> font-bold text-white<?php endif; ?>">Uses</a></li>
                 </ul>
             </div>
-            <div class="absolute top-[21px] sm:top-5 right-14 sm:right-6 hover:opacity-70 dark:hover:text-content">
+            <div class="absolute top-[21px] sm:top-5 right-16 sm:right-6 hover:opacity-70 dark:hover:text-content">
                 <a href="#" id="toggle-switch" title="Toggle theme between light and dark" aria-label="Toggle theme between light and dark">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-switch-off" class="w-5 feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="toggle-switch-on" class="hidden w-5 feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -73,4 +73,4 @@ $image = $page->image ?? 'images/generic.png';
             </div>
         </header>
 
-        <main class="px-4 lg:px-0 container-md flex-grow <?php if ($page->permalink === '/') : ?>flex justify-center items-center<?php else : ?>pt-5 sm:pt-10 pb-4 sm:pb-6<?php endif; ?>">
+        <main class="px-6 lg:px-0 container-md flex-grow <?php if ($page->permalink === '/') : ?>flex justify-center items-center<?php else : ?>pt-5 sm:pt-10 pb-4 sm:pb-6<?php endif; ?>">
