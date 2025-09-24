@@ -7,10 +7,12 @@ $image = $page->image ?? 'images/generic.png';
 <html lang="en-GB">
 <head>
     <meta charset="utf-8">
-    <title>Tamas Erdelyi </title>
+    <title>Tamas Erdelyi – Software Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, UK">
+    <meta property="og:title" content="Tamas Erdelyi – Software Developer">
     <meta property="og:image" content="<?php echo asset($image); ?>">
+    <meta property="og:description" content="Software Developer with <?php echo $experienceInYears; ?> years of full-stack experience based in Gloucestershire, UK">
     <link rel="icon" type="image/x-icon" href="<?php echo asset('favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php echo asset('css/site.css'); ?>">
     <link rel="stylesheet" title="Light theme" href="<?php echo asset('css/github.css'); ?>">
