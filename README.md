@@ -1,17 +1,26 @@
 # terdelyi.co.uk
 
-Hi, you're looking at the source code of my personal website. I'm a freelance software developer, specialised in
-web-related services at [Web Developer For Hire](https://webdeveloperforhire.co.uk/). If you're looking for a
-contractor,  feel free to contact me.
+You're looking at the source code of my personal website.
+
+I'm a software developer, specialised in web-related services. If you'd like to contact me,
+please [use this form](https://terdelyi.co.uk/contact/).
 
 ## Development
 
 The site is using an open-source static site generator of mine called
 [Phanstatic](https://github.com/terdelyi/phanstatic/).
 
-To be able to build the site locally you need PHP 8.1 and Node 20.
+### Install
 
-## Disclaimer
+To be able to build the site locally you need PHP 8.3 and Node 23.
 
-I absolutely don't mind if you get inspired, but please don't copy the design or the content of this site directly.
-If you re-use the code or any elements, please drop me a DM, I would be happy to hear about it!
+```
+composer install
+npm install
+npm run build
+```
+
+### Disclaimer
+
+Get inspired, but don't copy the design or the content of this site directly.
+If you re-use the code or any element drop me a DM, I would be happy to hear about it!

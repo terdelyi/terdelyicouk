@@ -1,6 +1,7 @@
 <?php
 
-use Terdelyi\Phanstatic\Config\ConfigBuilder;
+use Terdelyi\Phanstatic\Models\Config;
+use Terdelyi\Phanstatic\Models\CollectionConfig;
 
 if (getenv('ENV') === 'production') {
     $baseUrl = getenv('URL');
@@ -8,19 +9,14 @@ if (getenv('ENV') === 'production') {
     $baseUrl = getenv('DEPLOY_URL') ? getenv('DEPLOY_URL') : 'http://localhost:8000';
 }
 
-return ConfigBuilder::make()
-    ->setBaseUrl($baseUrl)
-    ->setTitle('Tamas Erdelyi')
-    ->addCollection(
-        'posts',
-        'Posts',
-        'posts',
-        10
-    )
-    ->addCollection(
-        'weeknotes',
-        'Weeknotes',
-        'weeknotes/2025',
-        10
-    )
-    ->build();
+return new Config(
+    baseUrl: $baseUrl,
+    title: 'Tamas Erdelyi',
+    collections: [
+        'posts' => new CollectionConfig(
+            title: 'Posts',
+            slug: 'posts',
+            pageSize: 10,
+        )
+    ]
+);
