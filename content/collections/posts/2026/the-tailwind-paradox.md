@@ -1,6 +1,6 @@
 ---
 title: "The Tailwind Paradox"
-description: "Why one of the most popular open-source tools of the 2020s is still struggling to grow and sustain a business, how AI is changing developer products, and the challenges of building a company around software that’s essentially free."
+description: "Why one of the most popular open-source tools is still struggling to grow and sustain a business, how AI is changing developer products, and the challenges of building a company around software that’s essentially free."
 date: "2026-01-13"
 tags: ["Software Development", "Open Source", "Business"]
 image: "/posts/2026/tailwind-paradox.png"
