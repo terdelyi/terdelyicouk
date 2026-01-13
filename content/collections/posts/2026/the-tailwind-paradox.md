@@ -3,7 +3,7 @@ title: "The Tailwind Paradox"
 description: "Why one of the most popular open-source tools is still struggling to grow and sustain a business, how AI is changing developer products, and the challenges of building a company around software that’s essentially free."
 date: "2026-01-13"
 tags: ["Software Development", "Open Source", "Business"]
-image: "/posts/2026/tailwind-paradox.png"
+image: "/posts/tailwind-paradox.png"
 ---
 This term could easily go into tech history books after one of the most successful open source web dev packages is still struggling to find a reliable maintenance model after 6 years. Maybe building a tech company around a CSS utility framework was too big a chunk? Should open source projects necessarily grow into teams or billion dollar businesses? I'm not trying to investigate the reasons it failed or might yet succeed. At least from what we see today, this is certainly not the beginning of the end, but rather fine-tuning of the business model. I'm also not trying to recommend the right direction for the product, but I thought it would be the right time to take a look at a couple of angles: what open source means nowadays, and how hard it is to build a product when your main offering is basically free.
 
